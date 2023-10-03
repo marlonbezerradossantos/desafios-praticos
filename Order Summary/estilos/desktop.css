@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../imagens/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

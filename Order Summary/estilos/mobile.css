@@ -12,14 +12,12 @@
 body {
     margin-top: 50px;
     background-color: hsl(225, 100%, 98%); 
-    
-
 }
 
 section {
     background-color: white;
     width: 375px;
-    height: 590px;
+    height: 570px;
     margin: auto;
     margin-bottom: 30px;
     border-radius: 20px;
@@ -27,15 +25,13 @@ section {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.432);
 }
 
-
 .image__img {
     width: 100%;
-    
 }
 
 .title {
     font-weight: 900;
-    color: hsl(223, 47%, 23%);
+    color: #16244b;
     text-align: center;
     margin: 25px 0px;
 }
@@ -47,8 +43,7 @@ section {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    color: hsla(223, 47%, 19%, 0.829)
-    
+    color: #707386;
 }
 
 .plan {
@@ -58,12 +53,33 @@ section {
     width: 90%;
     margin: auto;
     margin-bottom: 25px;
-    background-color: #F8F9FD;
+    background-color: #f8f9fe; 
     border-radius: 10px;
 }
 
 .plan__img, .change {
     padding: 10px;
+}
+
+.plan__price {
+    text-align: center;
+    margin-right: 60px;
+}
+
+.plan__annual {
+    color: #1d2943;
+    font-size: 16px;
+}
+
+.change {
+    font-weight: 900;
+    font-size: 14px;
+    color: #3f32b5;
+}
+
+.change:hover {
+    color: #6660ba;
+    text-decoration: none;
 }
 
 
@@ -83,8 +99,17 @@ section {
     border-radius: 10px;
 }
 
+.payment:hover {
+    border: 1px solid rgba(0, 0, 0, 0.699);
+    background-color: #766cf1;
+}
+
 .cancel {
     text-decoration: none;
     color: gray;
     font-weight: 900;
+}
+
+.cancel:hover {
+    color: #1c2542;
 }
