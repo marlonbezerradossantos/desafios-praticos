@@ -9,22 +9,19 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
-
 
 body {
     font-family: 'Hanken Grotesk', sans-serif;
     background-color: lightgray;
 }
 
-.main {
-  
-    border-radius: 30px;
+main {
+    display: block;
     margin: auto;
     width: 375px;
-    height: 100vh;
-
+    height: 600px;
+    
 }
 
 .score {
@@ -45,7 +42,7 @@ body {
     margin-bottom: 30px;
     padding-top: 23px;
     width: 140px;
-    height: 140px; /**/
+    height: 140px;
 }
 
 .score__total {
@@ -98,7 +95,7 @@ body {
     margin:auto;
     margin-bottom: 20px;
     width: 83%;
-    height: 57px; /**/
+    height: 57px;
 }
 
 .summary__skillsimg {
@@ -146,7 +143,7 @@ body {
     align-items: center;
     margin: auto;
     width: 83%;
-    height: 52px; /**/
+    height: 52px;
     border-radius: 30px;
     color: white;
     text-decoration: none;
