@@ -19,7 +19,7 @@ body {
 main {
     display: block;
     margin: auto;
-    width: 100vw;
+    max-width: 375px;
     height: 600px;
     
 }
@@ -93,14 +93,14 @@ main {
     background-color: gray;
     border-radius: 10px;
     margin:auto;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
     width: 83%;
     height: 57px;
 }
 
 .summary__skillsimg {
     padding-left: 20px;
-    width: 47px;
+    width: 15%;
 }
 
 .summary__skillpoints {
