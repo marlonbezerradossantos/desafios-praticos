@@ -9,16 +9,22 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
+
 
 body {
     font-family: 'Hanken Grotesk', sans-serif;
     background-color: lightgray;
 }
 
-main {
+.main {
+  
+    border-radius: 30px;
     margin: auto;
     width: 375px;
+    height: 100vh;
+
 }
 
 .score {
@@ -39,7 +45,7 @@ main {
     margin-bottom: 30px;
     padding-top: 23px;
     width: 140px;
-    height: 140px;
+    height: 140px; /**/
 }
 
 .score__total {
@@ -92,7 +98,7 @@ main {
     margin:auto;
     margin-bottom: 20px;
     width: 83%;
-    height: 57px;
+    height: 57px; /**/
 }
 
 .summary__skillsimg {
@@ -104,18 +110,48 @@ main {
     padding-right: 20px;
 }
 
+.summary__skillpoint {
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+.summary__pointlimit {
+    color: #9f9aa1;
+}
+
 #reaction {
     background-color: #fff6f5;
+    color: #b76c71;
 }
 
 #memory {
     background-color: #fffbf2;
+    color: #ebcb78;
 }
 
 #verbal {
     background-color: #f2fbfa;
+    color: #259c7e;
 }
 
 #visual {
     background-color: #f3f3fd;
+    color: #1a20a8;
+}
+
+.continue {
+    background-color: #313a59;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    width: 83%;
+    height: 52px; /**/
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.continue:hover {
+    background-image: linear-gradient(to bottom, #6542ff,#382deb) ;
 }
