@@ -3,152 +3,158 @@
 
 
 /* 1 = 4c23ca
-   2 = 4c23ca */
+   2 = 4c23ca
+   font-family: 'Hanken Grotesk', sans-serif; */
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Hanken Grotesk', sans-serif;
-    background-color: lightgray;
-}
-
-main {
-    display: block;
-    margin: auto;
-    max-width: 375px;
-    height: 600px;
-    
-}
-
-.score {
-    background-image: linear-gradient(to bottom, #7857ff, #2e2be9);
-    text-align: center;
-}
-
-.score__title {
-    color: #ffffffa2;
-    font-size: 18px;
-    padding:30px 0px;
-}
-
-.score__points {
-    background-image: linear-gradient(to bottom, rgb(78, 33, 202), #2421ca00);
-    border-radius: 50%;
-    margin: auto;
-    margin-bottom: 30px;
-    padding-top: 23px;
-    width: 140px;
-    height: 140px;
-}
-
-.score__total {
-    color: white;
-    font-size: 3em;
-}
-
-.score__limit {
-    color: rgba(255, 255, 255, 0.637);
-}
-
-.score__praise {
-    color: white;
-    font-weight: 700;
-    font-size: 1.4em;
-    margin-bottom: 10px;
-}
-
-.score__info {
-    color: #ffffffa2;
-    margin: auto;
-    text-align: justify;
-    padding-bottom: 45px;
-    width: 68%;
-}
-
-.summary {
-    background-color: white;
-    padding-bottom: 25px;
-}
-
-.summary__title {
-    font-size: 20px;
-    padding: 25px 30px;
 }
 
 .flex {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .block {
-    display: inline-block;
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1.6rem;
+}
+
+main {
+    max-width: 76.8rem;
+    margin: auto;
+}
+
+.results {
+    background-image: linear-gradient(to bottom, rgb(120, 87, 255), rgb(46, 43, 233));
+    border-radius: 0% 0% 10% 10%;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 2rem;
+  }
+
+.results__title {
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 5%;
+}
+
+.results__points {
+    background-image: linear-gradient(to bottom, rgb(78, 33, 202), rgba(36, 33, 202, 0));
+    border-radius: 50%;
+    flex-direction: column;
+    height: 15rem;
+    margin: auto;
+    
+    justify-content: center;
+    width: 15rem;
+}
+
+.results__point {
+    color: white;
+    font-size: 5rem;
+}
+
+.results__total {
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 1.4rem;
+}
+
+.results__praise {
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 500;
+}
+
+.results__info {
+    color: rgba(255, 255, 255, 0.623);
+    font-size: clamp(0.8rem, 1.5rem, 3rem);
+    margin: auto;
+    margin-bottom: 8%;
+    width: 50%;
+}
+
+.summary {
+
+    width: 100%;
+}
+
+.summary__title {
+    font-size: 1.9rem;
+    margin: 5% 6% 5% 6%;
 }
 
 .summary__skills {
+    align-items: center;
     background-color: gray;
     border-radius: 10px;
-    margin:auto;
-    margin-bottom: 5%;
-    width: 83%;
-    height: 57px;
+    height: 9vh;
+    justify-content: space-between;
+    margin-left: 6%;
+    margin-bottom: 4%;
+    padding: 0rem 2rem;
+    width: 85%;
 }
 
-.summary__skillsimg {
-    padding-left: 20px;
-    width: 15%;
+.summary__image {
+    padding-right: 4%;
+    width: 13%;
+}
+
+.summary__skilltype {
+    padding-right: 40%;
 }
 
 .summary__skillpoints {
-    padding-right: 20px;
+    flex-wrap: nowrap;
 }
 
 .summary__skillpoint {
-    font-weight: 900;
-    color: rgba(0, 0, 0, 0.849);
+    font-weight: 800;
+    padding-right: 1rem;
 }
 
-.summary__pointlimit {
-    color: #9f9aa1;
+.summary__skilltotal {
+    color: rgba(0, 0, 0, 0.589);
+    font-weight: 800;
+}
+
+.continue {
+    background-color: #303b59;
+    border-radius: 30px;
+    color: white;
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 4%;
+    text-align: center;
+    text-decoration: none;
+    width: 85%;
 }
 
 #reaction {
-    background-color: #fff6f5;
-    color: #b76c71;
+    background-color: #fff6f5; 
 }
 
 #memory {
     background-color: #fffbf2;
-    color: #ebcb78;
 }
 
 #verbal {
     background-color: #f2fbfa;
-    color: #259c7e;
 }
 
 #visual {
     background-color: #f3f3fd;
-    color: #1a20a8;
-}
-
-.continue {
-    background-color: #313a59;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin: auto;
-    width: 83%;
-    height: 52px;
-    border-radius: 30px;
-    color: white;
-    text-decoration: none;
-}
-
-.continue:hover {
-    background-image: linear-gradient(to bottom, #6542ff,#382deb) ;
 }

@@ -1,71 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results Summary Component</title>
+    <title>Results Summary</title>
     <link rel="stylesheet" href="estilos/mobile.css" media="all">
 </head>
+
 <body>
-    <main class="main">
-        <section class="score">
-            <h2 class="score__title">Your Result</h2>
-            <div class="score__points ">
-                <h1 class="score__total">76</h1>
-                <p class="score__limit">of 100</p>
+    <main>
+        <section class="results">
+            <h2 class="results__title">Your Result</h2>
+            <div class="results__points flex">
+                <h1 class="results__point">76</h1>
+                <p class="results__total">of 100</p>
             </div>
-            <p class="score__praise">Great</p>
-            <p class="score__info">You scored higher than 65% of the people who have taken these tests.</p>
+            <h1 class="results__praise">Great</h1>
+            <p class="results__info">You scored higher than 65% of the people who have taken these tests. </p>
         </section>
-
-
-
-
         <section class="summary">
-            <h2 class="summary__title">Summary</h2>
+            <h1 class="summary__title">Summary</h1>
 
-
-            <div id="reaction" class="summary__skills flex">
-                <img class="summary__skillsimg" src="imagens/icon-reaction.svg" alt="Ícone de um raio">
-                <h3 class="summary__skill">Reaction</h3>
-                <span class="summary__skillpoints">
-                    <p class="summary__skillpoint block">80</p>
-                    <p class="summary__pointlimit block">/ 100</p>
+            <div class="summary__skills flex" id="reaction">
+                <img src="imagens/icon-reaction.svg" alt="ícone de um raio" class="summary__image">
+                <h3 class="summary__skilltype">Reaction</h3>
+                <span class="summary__skillpoints flex">
+                    <p class="summary__skillpoint">80</p>
+                    <p class="summary__skilltotal">/ 100</p>
                 </span>
             </div>
 
-
-            <div id="memory" class="summary__skills flex">
-                <img class="summary__skillsimg" src="imagens/icon-memory.svg" alt="Ícone de um cérebro">
-                <h3 class="summary__skill">Memory</h3>
-                <span class="summary__skillpoints">
-                    <p class="summary__skillpoint block">92</p>
-                    <p class="summary__pointlimit block">/ 100</p>
+            <div class="summary__skills flex" id="memory">
+                <img src="imagens/icon-memory.svg" alt="Ícone de um cérebro" class="summary__image">
+                <h3 class="summary__skilltype">Memory</h3>
+                <span class="summary__skillpoints flex">
+                    <p class="summary__skillpoint">92</p>
+                    <p class="summary__skilltotal">/ 100</p>
                 </span>
             </div>
 
-
-            <div id="verbal" class="summary__skills flex">
-                <img class="summary__skillsimg" src="imagens/icon-verbal.svg" alt="Ícone de um balão de fala">
-                <h3 class="summary__skill">Verbal</h3>
-                <span class="summary__skillpoints">
-                    <p class="summary__skillpoint block">61</p>
-                    <p class="summary__pointlimit block">/ 100</p>
+            <div class="summary__skills flex" id="verbal">
+                <img src="imagens/icon-verbal.svg" alt="Ícone de um balão de fala" class="summary__image">
+                <h3 class="summary__skilltype">Verbal</h3>
+                <span class="summary__skillpoints flex">
+                    <p class="summary__skillpoint">61</p>
+                    <p class="summary__skilltotal">/ 100</p>
                 </span>
             </div>
 
-
-            <div id="visual" class="summary__skills flex">
-                <img class="summary__skillsimg" src="imagens/icon-visual.svg" alt="Ícone de um olho" class="summary__skillsimg">
-                <h3 class="summary__skill">Visual</h3>
-                <span class="summary__skillpoints">
-                    <p class="summary__skillpoint block">72</p>
-                    <p class="summary__pointlimit block">/ 100</p>
+            <div class="summary__skills flex" id="visual">
+                <img src="imagens/icon-visual.svg" alt="Ícone de um olho" class="summary__image">
+                <h3 class="summary__skilltype">Visual</h3>
+                <span class="summary__skillpoints flex">
+                    <p class="summary__skillpoint">72</p>
+                    <p class="summary__skilltotal">/ 100</p>
                 </span>
             </div>
-            <a href="#" class="continue">Continue</a>
         </section>
-        
+        <a href="#" class="continue block">Continue</a>
     </main>
 </body>
+
 </html>
