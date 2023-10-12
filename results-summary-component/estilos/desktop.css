@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+body {
+    
+}
+
+main {
+    background-color: gray;
+    display: flex;
+    height: 80%;
+    margin: 10% auto;
+}
+
+.results {
+    width: 80%;
+}
