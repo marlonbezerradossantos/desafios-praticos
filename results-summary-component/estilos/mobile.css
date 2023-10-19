@@ -20,7 +20,6 @@
     display: block;
 }
 
-
 html {
     font-size: 62.5%;
 }
@@ -33,8 +32,7 @@ body {
 
 main {
     max-width: 76.8rem;
-    margin: auto;
-    
+    margin: auto; 
 }
 
 .results {
@@ -46,8 +44,7 @@ main {
     row-gap: 2rem;
     text-align: center;
     width: 100%;
-   
-  }
+}
 
 .results__title {
     color: rgba(255, 255, 255, 0.767);
@@ -62,7 +59,6 @@ main {
     flex-direction: column;
     height: 15rem;
     margin: auto;
-    
     justify-content: center;
     width: 15rem;
 }
@@ -91,9 +87,7 @@ main {
 }
 
 .summary {
-    
     width: 100%;
-
 }
 
 .summary__title {
@@ -116,13 +110,11 @@ main {
 .summary__image {
     padding-right: 4%;
     width: 11.5%;
-    
 }
 
 .summary__skilltype {
     padding-right: 50%;
-    font-size: 1.7rem;
-    
+    font-size: 1.7rem; 
 }
 
 .summary__skillpoints {
@@ -133,7 +125,6 @@ main {
     color: black;
     font-weight: 800;
     padding-right: 1rem;
-    
 }
 
 .summary__skilltotal {
