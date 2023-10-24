@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Preview Card Component</title>
     <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/mobile.css" media="all">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width:768px)">
+    <link rel="stylesheet" href="estilos/laptop.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 1440px)">
 </head>
 <body>
     <main>
         <section class="image">
-            [Imagem]
-            <img src="" alt="" class="image__product">
+            <!-- [Imagem] -->
         </section>
         <section class="product">
             <h3 class="product__type">PERFUME</h3>
             <h1 class="product__name">Gabrielle Essence Eau De Parfum</h1>
             <p class="product__description">A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the house of CHANEL.</p>
-            <div class="pruduct__prices">
+            <div class="product__prices">
                 <h2 class="prices__new">$149.99</h2>
                 <p class="prices__old">$169.99</p>
             </div>
             <div class="button">
-                <img src="" alt="" class="button__img">
+                <img src="./imagens/icon-cart.svg" alt="" class="button__img">
                 <p class="button__text">Add to Cart</p>
             </div>
         </section>

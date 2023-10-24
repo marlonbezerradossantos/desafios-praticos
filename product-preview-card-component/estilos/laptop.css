@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+html {
+    font-size: 80%;
+}
+
+main {
+    width: 80%;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button {
+    margin-bottom: 2rem;
+}
+

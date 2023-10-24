@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+main {
+    display: flex;
+    margin-top: 6rem;
+    padding: 0px;
+    overflow: hidden;
+    width: 90%;
+}
+
+.image {
+    padding: 25%;
+    background-image: url(../imagens/image-product-desktop.jpg);
+}
+
+.button {
+    margin-bottom: 0rem;
+}
