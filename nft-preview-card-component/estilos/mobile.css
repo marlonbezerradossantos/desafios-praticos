@@ -28,10 +28,10 @@ main {
 }
 
 .image {
-   margin: auto;
-   padding-top: 5%;
-   position: relative;
-   width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    position: relative;
+    width: 90%;
 }
 
 .image__nft {
@@ -57,7 +57,7 @@ main {
     padding-top: 45%;
     display: block;
     margin: auto;
-}
+}  
 
 .info {
     padding-left: 3rem;
@@ -152,7 +152,7 @@ main {
 
 @media screen and (min-width: 1440px) {
     main {
-        width: 25%;
+        width: 24%;
     }
 }
 
