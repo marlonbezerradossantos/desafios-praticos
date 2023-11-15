@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+
+main {
+    display: flex;
+    width: 80%;
+}
+
+.image {
+    background-image: url(../imagens/image-header-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    order: 1;
+    width: 50%;
+    padding: 0%;
+}
+
+.image__photo {
+    display: none;
+}
+
+.image__overlay {
+    padding-top: 98.5%;
+}
+
+.infos {
+    width: 50%;
+}
+
+br {
+    display: none;
+}
+
+.title {
+    font-size: 3.3rem;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    text-align: left;
+    width: 70%;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    text-align: left;
+    width: 70%;
+}
+
+.allstats {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 65%;
+}
+
+.stats__value {
+    font-size: 2.3rem;
+}
+
+.stats__info {
+    font-size: 1.2rem;
+}

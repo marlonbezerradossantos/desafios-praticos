@@ -1,48 +1,20 @@
 @charset "UTF-8";
 
-
-
 main {
     display: flex;
-    width: 80%;
+    width: 70%;
 }
 
 .image {
+    background-image: url(../imagens/image-header-desktop.jpg);
     order: 1;
     width: 50%;
-}
-
-.infos {
-    width: 50%;
-}
-
-br {
-    display: none;
-}
-
-.title {
-    font-size: 3.3rem;
-    margin-left: 10%;
-    text-align: left;
-    width: 70%;
+    padding: 0%;
 }
 
 .description {
-    font-size: 1.5rem;
-    margin-left: 10%;
-   
-    text-align: left;
-    width: 70%;
+    font-size: 1.6rem;
 }
-
-.allstats {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10%;
-    width: 65%;
-}
-
-
 
 .stats__value {
     font-size: 2.7rem;
@@ -50,4 +22,4 @@ br {
 
 .stats__info {
     font-size: 1.6rem;
-}
+} 
