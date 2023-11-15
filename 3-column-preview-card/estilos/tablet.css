@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+main {
+    width:65%;
+}
+
+.car__icon {
+    width: 20%;
+}
+
+.car__type {
+    font-size: 6rem;
+}
+
+.car__info {
+    font-size: 2rem;
+}
+
+.car__learnmore {
+    font-size: 1.8rem;
+    padding: 4% 15%;
+}
