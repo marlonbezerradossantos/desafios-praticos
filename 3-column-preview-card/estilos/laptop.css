@@ -2,15 +2,24 @@
 
 main {
     display: flex;
-    width: 90%;
-    margin: 0px;
-    margin: auto;
+    margin: 5% auto; 
+    width: 80%;
 }
 
 .sedans, .suvs, .luxury {
-    padding-bottom: 0px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.sedans {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.luxury {
+    border-radius: 0px 10px 10px 0px;
 }
 
 .car__type {
@@ -18,7 +27,13 @@ main {
 }
 
 .car__info {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 145%;
-    
+}
+
+.car__learnmore {
+    font-size: 1.4rem;
+    padding: 4% 4%;
+    text-align: center;
+    width: 45%;
 }
