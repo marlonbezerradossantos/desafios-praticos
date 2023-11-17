@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+main {
+    width: 80%;
+}
+
+.info {
+    font-size: 1.5rem;
+}
+
+.city {
+    font-size: 2.5rem;
+    padding-top: 1%;
+}
+
+.container__number {
+    font-size: 2.9rem;
+}
+
+.container__meaning {
+    font-size: 1.8rem;
+}

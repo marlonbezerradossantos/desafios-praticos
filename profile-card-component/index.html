@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Card Component</title>
-    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/mobile.css" media="all">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 570px)">
+    <link rel="stylesheet" href="estilos/laptop.css" media="screen and (min-width: 1024px)">
 </head>
 <body>
-    <img src="imagens/bg-pattern-top.svg" alt="" class="bubble__top">
-    <img src="imagens/bg-pattern-bottom.svg" alt="" class="bubble__bottom">
+    <!-- <img src="imagens/bg-pattern-top.svg" alt="" class="bubble__top">
+    <img src="imagens/bg-pattern-bottom.svg" alt="" class="bubble__bottom">   -->
     <main>
-        <div class="icon">
-            [Imagem de perfil victor crest]
+        <div class="banner">
+            <div class="banner__icon">
+            <!-- [Foto de Perfil]  -->
+            </div>
         </div>
         <div class="info">
-            <h1 class="info__nameage">Victor Crest</h1>
-            <p class="info__city">London</p>
+            <h1 class="info__name">Victor Crest <strong class="info__age">26</strong></h1>
         </div>
+        <p class="city">London</p>
         <div class="socialdata">
             <div class="socialdata__container">
                 <h1 class="container__number">80K</h1>
