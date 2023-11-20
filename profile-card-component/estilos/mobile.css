@@ -16,18 +16,17 @@ body {
     overflow-x: hidden;
     background-color: #19a1ad;
     background-image: url(../imagens/bg-pattern-top.svg), url(../imagens/bg-pattern-bottom.svg);
+    background-position: top left, bottom right;
     background-repeat: no-repeat, no-repeat;
-    background-position: left top, right bottom;
-    background-size: 35%;
-    background-attachment: fixed fixed;
-    background-clip: content-box, content-box;
+    background-size: 40%, 40%;
+    background-attachment: fixed, fixed; /* Mantém os círculos fixos enquanto rola a página */
     font-size: 1.6rem;
 }
 
 main {
     background-color: white;
     border-radius:5%;
-    margin: 5% auto;
+    margin: 10% auto;
     position: relative;
     width: 90%;
 }
