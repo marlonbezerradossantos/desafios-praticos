@@ -1,8 +1,12 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'League Spartan', sans-serif; */
 
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 html {
@@ -11,4 +15,101 @@ html {
 
 body {
     font-size: 1.6rem;
+}
+
+main {
+    width: 90%;
+    margin:  20% auto;
+}
+
+.title {
+    color: #501c4d;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 4.0rem;
+    font-weight: bolder;
+    margin: 10% auto 5% auto;
+    text-align: center;
+    width: 75%;
+}
+
+.description {
+    color: #836e7f;
+    display: block;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 135%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.rating {
+    background-color: #f7f2f8;
+    border-radius: 5px;
+    margin-bottom: 4%;
+    padding: 4% 0%;
+    text-align: center;
+}
+
+.rating--padding {
+    margin-bottom: 15%;
+}
+
+.rating__stars {
+    margin-bottom: 3%;
+    display: flex;
+    column-gap: 2%;
+    justify-content: center;
+}
+
+.rating__meaning {
+    color: #511f50;
+    font-family: 'League Spartan', sans-serif; 
+}
+
+.coments {
+    background-color: #511f50;
+    border-radius: 7px;
+    margin-bottom: 5%;
+}
+
+.coments__profile {
+    display: flex;
+    column-gap: 7%;
+    padding: 9% 9% 8% 9%;
+}
+
+.profile__icon {
+    border-radius: 50%;
+    width: 13%;
+}
+
+.profile__icon > img {
+    max-width: 100%;
+    border-radius: 50%;
+} 
+
+.profile__info {
+    font-family: 'League Spartan', sans-serif; 
+    font-size: 1.6rem;
+}
+
+.info__name {
+    color: rgba(255, 255, 255, 0.767);
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.info__verified {
+    color: #c0679f;
+    font-weight: 400;
+}
+
+.coments__coment {
+    color: rgba(255, 255, 255, 0.767);
+    font-family: 'League Spartan', sans-serif; 
+    font-size: 1.7rem;
+    text-align: left;
+    line-height: 140%;
+    padding: 0% 9% 8% 9%;
 }
