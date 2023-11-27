@@ -90,6 +90,7 @@ main {
 } 
 
 .profile__info {
+    align-self: center;
     font-family: 'League Spartan', sans-serif; 
     font-size: 1.6rem;
 }

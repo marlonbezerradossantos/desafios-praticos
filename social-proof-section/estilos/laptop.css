@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+main {
+    width: 70%;
+}
+
+.title {
+    font-size: 5.6rem;
+}
+
+.description {
+    font-size: 2.4rem;
+}
+
+.rating__meaning {
+    font-size: 2.5rem;
+}
+
+.info__name {
+    font-size: 2.6rem;
+}
+
+.info__verified {
+    font-size: 2.5rem;
+}
+
+.coments__coment {
+    font-size: 2.3rem;
+}

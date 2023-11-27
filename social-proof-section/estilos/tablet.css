@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+main {
+    width: 80%;
+}
+
+.title {
+    font-size: 4.8rem;
+}
+
+.description {
+    font-size: 2.3rem;
+}
+
+.stars__icon {
+    width: 4.6%;
+}
+
+.rating__meaning {
+    font-size: 2.3rem;
+}
+
+.profile__icon {
+    width: 14%;
+}
+
+.info__name {
+    font-size: 2.5rem;
+}
+
+.info__verified {
+    font-size: 2.4rem;
+}
+
+.coments__coment {
+    font-size: 2.1rem;
+}
