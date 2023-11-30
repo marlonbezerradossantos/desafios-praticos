@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+main {
+    margin: 5% auto;
+    width: 90%;
+}
+
+.description {
+    margin: 3% auto 10% auto;
+    width: 70%;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+}
+
+.tools__column {
+   width: 33%;
+}
+
+.column__card {
+    width: 100%;
+}
+
+.card__title {
+    font-size: 1.8rem;
+}
+
+.card__description {
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.card__image {
+    margin-top: 15%;
+    margin-left: 80%;
+    width: 15%;
+}
