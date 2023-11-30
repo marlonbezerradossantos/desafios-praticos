@@ -97,6 +97,7 @@ main {
 
 .info__name {
     color: rgba(255, 255, 255, 0.767);
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: 5%;
 }
@@ -109,7 +110,7 @@ main {
 .coments__coment {
     color: rgba(255, 255, 255, 0.767);
     font-family: 'League Spartan', sans-serif; 
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     text-align: left;
     line-height: 140%;
     padding: 0% 9% 8% 9%;
