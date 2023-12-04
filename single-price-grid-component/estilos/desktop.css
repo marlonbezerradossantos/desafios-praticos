@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+html {
+    font-size: 80%;
+}
+
+main {
+    margin: 2% auto;
+    width: 70%;
+}
+
+.advantages, .bottom__price, .bottom__whyus {
+    padding: 4%;
+}
+
+.price__title {
+    font-size: 2.5rem;
+}
+
+.price__description {
+    font-size: 1.6rem;
+    margin-bottom: 13%;
+}
+
+.whyus__title {
+    font-size: 2.5rem;
+}
+
+.whyus__description {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
