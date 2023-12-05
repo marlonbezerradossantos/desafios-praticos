@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+html {
+    font-size: 50%;
+}
+
+body {
+    background-image: url("../imagens/bg-desktop.svg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    column-gap: 4rem;
+    justify-content: space-between;
+    margin: 0px auto 0px auto;
+}
+
+.images {
+    width: 55%;
+}
+
+.infos {
+    width: 45%;
+}
+
+.images__logo {
+    margin: 7% 0% 13% 0%;
+}
+
+.infos__title {
+    font-size: 3.5rem;
+    margin: 46% 0% 2% 0%;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+.infos__description {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.infos__button {
+    margin: 5% 0% 30% 0%;
+    font-size: 1.6rem;
+    width: 47%;
+}
+
+.images__socialmedia {
+    justify-content: flex-end;
+}
+
+.socialmedia__logo {
+    width: 8%;
+}
