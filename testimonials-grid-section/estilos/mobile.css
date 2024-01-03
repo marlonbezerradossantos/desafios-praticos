@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* font-family: 'Barlow Semi Condensed', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #edf2f8;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.6rem;
+}
+
+main {
+    margin: 7rem auto 10rem auto;
+    width: 90%;
+}
+
+.testimonial--purple {
+    background-color: #733fc8;
+}
+
+.testimonial--gray {
+    background-color: #49556b;
+}
+
+.testimonial--white {
+    background-color: white;
+}
+
+.testimonial--darkgray {
+    background-color: #18202d;
+}
+
+.testimonial {
+    border-radius: 10px;
+    padding: 3.5rem;
+    margin-bottom: 3.2rem;
+}
+
+.testimonial__profile {
+    display: flex;
+    column-gap: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.profile__icon {
+    display: block;
+    border: 2.3px solid rgba(255, 255, 255, 0.315);
+    border-radius: 49%;
+    width: 11%;
+}
+
+.info__name {
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.info__verified {
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 1.0;
+    font-weight: 400;
+}
+
+.testimonial__title {
+    color: white;
+    font-size: 2.9rem;
+    font-weight: 500;
+    margin-bottom: 2.1rem;
+}
+
+.testimonial__coment {
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+
