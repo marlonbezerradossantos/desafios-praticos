@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.7rem;
+    margin: 5rem auto 5rem auto;
+    width: 95%;
+    grid-template-areas: 
+        "daniel daniel jhonatan kira"
+        "jeanette patrick patrick kira"
+    ;
+}
+
+br {
+    display: none;
+}
+
+.testimonial {
+    margin-bottom: 0px;
+    padding: 1.7rem;
+}
+
+.testimonial--purple {
+    grid-area: daniel;
+}
+
+.testimonial--gray {
+   grid-area: jhonatan;
+}
+
+.testimonial--darkgray {
+    grid-area: patrick;
+}
+
+.testimonial--white1 {
+    grid-area: jeanette;
+}
+
+.testimonial--white2 {
+    grid-area: kira;
+}
+
+.testimonial__title {
+    font-size: 1.3rem;
+}
+
+.testimonial__coment {
+    font-size: 0.9rem;
+}
+
+.testimonial__profile {
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.profile__icon {
+    width: 32px;
+}
+
+.info__name {
+    font-size: 1.4rem;
+}
+
+.info__verified {
+    font-size: 1.3rem;
+}
+
+.testimonial__title {
+    font-size: 1.7rem;
+    width: 70%;
+}
+
+.testimonial__coment {
+    font-size: 1.4rem;
+    width: 90%;
+}
