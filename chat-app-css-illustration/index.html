@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat App Css Illustration</title>
     <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 1024px)">
     <script src="https://kit.fontawesome.com/338deb49b5.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="background"></div>
     <main>
         <section class="phone">
-            <section class="phone__chat">
+            <section class="phone__bg">
+
                 <div class="phone__profile">
                     <div class="profile__top"></div>
                     <div class="profile__info">
@@ -23,40 +27,45 @@
                         <i class="fa-solid fa-ellipsis-vertical info__dots" style="color: #ffffff;"></i>
                     </div>
                 </div>
+
                 <div class="phone__chatseller">
                     <p class="chatseller__talk">That sounds great. I'd be happy to discuss more.</p>
                 </div>
                 <div class="phone__chatseller">
                     <p class="chatseller__talk">Could you send over some pictures of your dog, please?</p>
                 </div>
-                <div class="phone__chatcustomer">
-                    <img src="imagens/dog-image-1.jpg" alt="Imagem do cachorro do cliente" class="chatcustomer__image">
-                    <img src="imagens/dog-image-2.jpg" alt="Imagem do cachorro do cliente" class="chatcustomer__image">
-                    <img src="imagens/dog-image-3.jpg" alt="Imagem do cachorro do cliente" class="chatcustomer__image">
+                
+                <div class="phone__pictures">
+                    <img src="imagens/dog-image-1.jpg" alt="Imagem do cachorro do cliente" class="pictures__image">
+                    <img src="imagens/dog-image-2.jpg" alt="Imagem do cachorro do cliente" class="pictures__image">
+                    <img src="imagens/dog-image-3.jpg" alt="Imagem do cachorro do cliente" class="pictures__image">
                 </div>
+                
                 <div class="phone__chatcustomer">
                     <p class="chatcustomer__talk">Here are few pictures. She's a happy girl!</p>
                 </div>
-                <div class="phone__chatcustomer">
+                <div class="phone__chatcustomer phone__chatcustomer--small margin__bottom">
                     <p class="chatcustomer__talk">Can you make it?</p>
                 </div>
                 <div class="phone__chatseller">
                     <p class="chatseller__talk">She looks so happy! The time we discussed works. How long shall I take her out for? </p>
                 </div>
                 <div class="phone__budgetseller">
-                    <div class="budgetseller__ball">[bolinha]</div>
+                    <img src="imagens/icons8-círculo-22.png" alt="" class="budget__seller">
                     <p class="budgetseller__time">30 minute walk</p>
                     <h1 class="budgetseller__price">$29</h1>
                 </div>
                 <div class="phone__budgetseller">
-                    <div class="budgetseller__ball">[bolinha]</div>
+                    <img src="imagens/icons8-círculo-22.png" alt="" class="budget__seller">
                     <p class="budgetseller__time">1 hour walk</p>
                     <h1 class="budgetseller__price">$49</h1>
                 </div>
+
+
                 <div class="phone__writearea">
                     <p class="writearea__placeholder">Type a message...</p>
                     <div class="writearea__send">
-                        [Icone send__icon ]
+                        <i class="fa-solid fa-greater-than send__icon" style="color: #ffffff;"></i>
                     </div>
                 </div>
             </section>
@@ -64,7 +73,7 @@
 
         <section class="info">
             <h1 class="info__title">Simple booking</h1>
-            <p class="info__description">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+            <p class="info__description">Stay in touch with our dog walkers <br>through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
         </section>
     </main>
 </body>

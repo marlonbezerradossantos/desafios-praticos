@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+html {
+    font-size: 50%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+.background {
+    border-radius: 0px 0px 230px 230px ;
+    height: 650px;
+    left: -100px;
+    width: 31.6%;
+}
+
+.phone {
+    border-radius: 30px;
+    width: 40%;
+}
+
+.phone__profile {
+    border-radius: 25px 25px 5px 5px;
+}
+
+.info {
+    width: 50%;
+}
+
+.info__title {
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.info__description {
+    font-size: 2.1rem;
+    line-height: 3.4rem;
+    margin: 0px;
+    text-align: left;
+    width: 85%;
+}
+
+br {
+    display: none;
+}

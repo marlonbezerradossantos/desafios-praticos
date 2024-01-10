@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+.background {
+    width: 52%;
+}
+
+.phone {
+    max-width: 34rem;
+}
+
+.phone__chatcustomer--small {
+    max-width: 110px;
+}
+
+.info__description {
+    line-height: 3rem;
+    margin: auto;
+    width: 60%;
+}
