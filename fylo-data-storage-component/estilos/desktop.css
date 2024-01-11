@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../imagens/bg-desktop.png);
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    column-gap: 3rem;
+    justify-content: center;
+    margin: 15% auto;
+    width: 90%;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 3%;
+    width: 40%;
+}
+
+.icons__container {
+    justify-items: flex-start;
+    padding: 10%;
+}
+
+.info {
+    padding: 4%;
+    width: 40%;
+}
+
+.info__usage {
+    font-size: 1.5rem;
+}
+
+.info__storage {
+    margin-bottom: 0px;
+}

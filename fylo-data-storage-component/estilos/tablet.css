@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+main {
+    margin: 7% auto;
+    width: 70%;
+}
+
+.top__image {
+    margin-bottom: 8%;
+}
+
+.icons__container {
+    padding: 8%;
+}
+
+.info__usage {
+    font-size: 2.4rem;
+}
+
+.storage__amount {
+    font-size: 1.9rem;
+}
+
+.info__remain {
+    width: 35%;
+    top: 82%;
+    left: 31%;
+}
