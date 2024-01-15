@@ -2,7 +2,9 @@
 
 body {
     background-image: url(../imagens/bg-desktop.png);
-    background-size: cover;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
 
 main {
@@ -15,27 +17,84 @@ main {
 
 .top {
     display: flex;
-    justify-content: center;
+    border-radius: 13px 110px 13px 13px;
+    justify-content: space-around;
     flex-direction: column;
     margin: 0px;
-    padding: 3%;
-    width: 40%;
+    padding: 2.5% 2.5%;
+    width: 28%;
+}
+
+.top__image {
+    width: 50%;
+}
+
+.top__icons {
+    column-gap: 4%;
 }
 
 .icons__container {
-    justify-items: flex-start;
-    padding: 10%;
+    justify-items: flex-end;
+    padding: 9%;
+}
+
+.container__icon {
+    width: 50%;
+}
+
+.container__icon--document {
+    width: 45%;
+}
+
+.container__icon--upload {
+    width: 65%;
 }
 
 .info {
-    padding: 4%;
-    width: 40%;
+    align-self: flex-end;
+    padding: 3%;
+    height: 11vw;
+    width: 42%;
 }
 
 .info__usage {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 4%;
+    text-align: left;
 }
 
-.info__storage {
-    margin-bottom: 0px;
+.info__bar {
+    margin-bottom: 1%;
+}
+
+.usage__ball {
+    height: 9px;
+    width: 9px;
+}
+
+.storage__amount {
+    font-size: 1.7rem;
+}
+
+.info__remain {
+    border-radius: 15px 15px 0px 15px;
+    height: 46%;
+    top: -27%;
+    left: 58%;
+}
+
+.info__remain::after {
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(100% 0, 12% 0, 100% 100%);
+    content: "";
+    height: 38%;
+    width: 26%;
+    position: absolute;
+    top: 83%;
+    left: 74%;
+    transform: rotate(0deg);
+}
+
+.remain__gb {
+    font-size: 4rem
 }

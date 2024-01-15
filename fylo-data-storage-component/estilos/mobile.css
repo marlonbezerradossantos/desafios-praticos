@@ -23,7 +23,7 @@ body {
 }
 
 main {
-    margin: 38% auto;
+    margin: 15% auto;
     width: 85%;
 }
 
@@ -35,7 +35,6 @@ main {
 }
 
 .top__image {
-    margin-bottom: 11%;
     width: 50%;
 }
 
