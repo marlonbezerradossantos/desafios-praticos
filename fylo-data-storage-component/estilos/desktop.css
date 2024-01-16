@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
+
+html {
+    height: 100vh;
+}
+
 body {
+    background-attachment: fixed;
     background-image: url(../imagens/bg-desktop.png);
-    background-size: contain;
-    background-position: center bottom;
+    background-size: 100% 60%;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
@@ -11,7 +17,7 @@ main {
     display: flex;
     column-gap: 3rem;
     justify-content: center;
-    margin: 15% auto;
+    margin: 13% auto;
     width: 90%;
 }
 
@@ -53,7 +59,7 @@ main {
 .info {
     align-self: flex-end;
     padding: 3%;
-    height: 11vw;
+    height: 10vw;
     width: 42%;
 }
 
