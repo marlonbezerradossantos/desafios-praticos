@@ -6,10 +6,9 @@ html {
 }
 
 body {
-    background-attachment: fixed;
     background-image: url(../imagens/bg-desktop.png);
-    background-size: 100% 60%;
-    background-position: bottom;
+    background-size: contain;
+    background-position: center bottom;
     background-repeat: no-repeat;
 }
 
@@ -17,7 +16,7 @@ main {
     display: flex;
     column-gap: 3rem;
     justify-content: center;
-    margin: 12% auto;
+    margin: 20.5% auto;
     width: 90%;
 }
 
@@ -28,7 +27,7 @@ main {
     flex-direction: column;
     margin: 0px;
     padding: 2.5% 2.5%;
-    width: 28%;
+    width: 40%;
 }
 
 .top__image {
@@ -59,8 +58,8 @@ main {
 .info {
     align-self: flex-end;
     padding: 3%;
-    height: 10vw;
-    width: 42%;
+    height: 12vw;
+    width: 50%;
 }
 
 .info__usage {
@@ -103,4 +102,16 @@ main {
 
 .remain__gb {
     font-size: 4rem
+}
+
+@media  screen and (min-width: 1300px) {
+    main {
+        margin: 14% auto;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    main {
+        margin: 23% auto;
+    }
 }
