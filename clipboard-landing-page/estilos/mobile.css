@@ -1,0 +1,195 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /* background-color: black; */
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 1.6rem;
+}
+
+.header {
+    background-image: url("../imagens/bg-header-mobile.png");
+    background-size: cover;
+    padding: 31% 0% 17% 0%;
+}
+
+.header__logo {
+    display: block;
+    margin: auto;
+    width: 31%;
+}
+
+.title {
+    color: #434a52;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.description--main {
+    color: #a1a2a4;
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 3.5rem;
+    margin-bottom: 12%;
+    text-align: center;
+    width: 100%;
+}
+
+.button {
+    display: block;
+    color: white;
+    border-radius: 50px;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 7% auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 4%;
+    width: 82%;
+}
+
+.button--green {
+    background-color: #24bca7;
+    box-shadow: 0px 4px 0px #219f8a;
+}
+
+.button--purple {
+    background-color: #5f74ff;
+    box-shadow: 0px 4px 0px #4f62da;
+}
+
+.subtitle {
+    color: #393b3f;
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin: 40% 0% 5% 0%;
+    text-align: center;
+}
+
+.subtitle--margin {
+    margin: 65% 0% 4% 0%;
+}
+
+.description {
+    color: #989c9e;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    margin-bottom: 18%;
+    text-align: center;
+    width: 100%;
+}
+
+.description--margin {
+    margin-bottom: 13%
+}
+
+.funcionalities__container {
+    margin: auto;
+    width: 83%;
+}
+
+.container__image {
+    max-width: 100%;
+}
+
+.features__container {
+    margin-top: 15%;
+}
+
+.container__title {
+    color: #2c2e30;
+    font-size: 3.7rem;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.container__title--margin {
+    margin-bottom: 6%;
+}
+
+.container__description {
+    color: #a0a5aa;
+    font-size: 1.9rem;
+    font-weight: 400;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.picture {
+    margin: auto;
+    width: 89%;
+}
+
+.picture__image {
+    max-width: 100%;
+}
+
+.boosts {
+    margin: 30% auto;
+    width: 85%;
+}
+
+.boosts__container {
+    margin-bottom: 18%;
+}
+
+.container__icon {
+    display: block;
+    margin: 0% auto 11% auto;
+}
+
+.companies {
+    margin: 5% 0% 50% 0%;
+}
+
+.companies__logo {
+    display: block;
+    margin: 15% auto;
+}
+
+.footer {
+    background-color: #f5f6f8;
+    margin-top: 40%;
+}
+
+.footer__logo {
+    display: block;
+    margin: auto;
+    margin: 10% auto;
+    padding-top: 10%;
+    width: 11%;
+}
+
+.infos__link {
+    display: block;
+    color: #434647;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 7%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer__socialmedia {
+    display: flex;
+    column-gap: 10%;
+    justify-content: center;
+    padding: 5% 0% 10% 0%;
+}
+
+.link__icon {
+    width: 30px;
+}
