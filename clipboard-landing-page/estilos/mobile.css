@@ -66,9 +66,19 @@ body {
     box-shadow: 0px 4px 0px #219f8a;
 }
 
+.button--green:hover {
+    background-color: #5dccbb;
+    box-shadow: 0px 4px 0px #57b8a7;
+}
+
 .button--purple {
     background-color: #5f74ff;
     box-shadow: 0px 4px 0px #4f62da;
+}
+
+.button--purple:hover {
+    background-color: #8896ff;
+    box-shadow: 0px 4px 0px #7e88e1;
 }
 
 .subtitle {
@@ -142,7 +152,7 @@ body {
 }
 
 .boosts {
-    margin: 40% auto;
+    margin: auto;
     width: 85%;
 }
 
@@ -187,6 +197,10 @@ body {
     text-decoration: none;
 }
 
+.infos__link:hover {
+    color: #24bca7;
+}
+
 .footer__socialmedia {
     display: flex;
     column-gap: 10%;
@@ -195,5 +209,10 @@ body {
 }
 
 .link__icon {
+    color: #4C545C;
     width: 30px;
+}
+
+.link__icon:hover {
+    color: #24bca7;
 }
