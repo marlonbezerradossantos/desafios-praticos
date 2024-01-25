@@ -31,7 +31,7 @@ body {
 
 .title {
     color: #434a52;
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-weight: 600;
     margin-bottom: 5%;
     text-align: center;
@@ -39,12 +39,13 @@ body {
 
 .description--main {
     color: #a1a2a4;
-    font-size: 2.6rem;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 3.5rem;
+    line-height: 2.9rem;
+    margin: auto;
     margin-bottom: 12%;
     text-align: center;
-    width: 100%;
+    width: 90%;
 }
 
 .button {
@@ -84,12 +85,13 @@ body {
 
 .description {
     color: #989c9e;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 3.2rem;
+    line-height: 3rem;
+    margin: auto;
     margin-bottom: 18%;
     text-align: center;
-    width: 100%;
+    width: 91%;
 }
 
 .description--margin {
@@ -106,12 +108,12 @@ body {
 }
 
 .features__container {
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .container__title {
     color: #2c2e30;
-    font-size: 3.7rem;
+    font-size: 2.3rem;
     margin-bottom: 3%;
     text-align: center;
 }
@@ -122,10 +124,12 @@ body {
 
 .container__description {
     color: #a0a5aa;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 4rem;
+    line-height: 3.2rem;
+    margin: auto;
     text-align: center;
+    width: 85%;
 }
 
 .picture {
@@ -138,12 +142,12 @@ body {
 }
 
 .boosts {
-    margin: 30% auto;
+    margin: 40% auto;
     width: 85%;
 }
 
 .boosts__container {
-    margin-bottom: 18%;
+    margin-bottom: 16%;
 }
 
 .container__icon {
@@ -162,7 +166,7 @@ body {
 
 .footer {
     background-color: #f5f6f8;
-    margin-top: 40%;
+    margin-top: 60%;
 }
 
 .footer__logo {
