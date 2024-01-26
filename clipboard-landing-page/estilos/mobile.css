@@ -203,16 +203,15 @@ body {
 
 .footer__socialmedia {
     display: flex;
-    column-gap: 10%;
+    column-gap: 6%;
     justify-content: center;
     padding: 5% 0% 10% 0%;
 }
 
 .link__icon {
-    color: #4C545C;
     width: 30px;
 }
 
-.link__icon:hover {
-    color: #24bca7;
+.socialmedia__link:hover .link__icon {
+    fill: #24bca7;
 }
