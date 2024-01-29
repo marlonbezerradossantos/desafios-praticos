@@ -203,15 +203,16 @@ body {
 
 .footer__socialmedia {
     display: flex;
-    column-gap: 6%;
+    column-gap: 8%;
     justify-content: center;
     padding: 5% 0% 10% 0%;
 }
 
 .link__icon {
-    width: 30px;
+    width: 24px;
+    height: 24px;
 }
 
-.socialmedia__link:hover .link__icon {
+.container__link:hover .link__icon {
     fill: #24bca7;
 }
