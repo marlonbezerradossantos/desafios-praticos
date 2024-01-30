@@ -208,11 +208,12 @@ body {
     padding: 5% 0% 10% 0%;
 }
 
-.link__icon {
-    width: 24px;
-    height: 24px;
+.link__icons {
+    fill: #4C545C;
+    height: 100;
+    width: 100;
 }
 
-.container__link:hover .link__icon {
-    fill: #24bca7;
+.container__link:hover .link__icons {
+    fill: #219f8a;
 }
