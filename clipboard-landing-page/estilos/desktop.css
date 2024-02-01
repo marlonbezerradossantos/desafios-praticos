@@ -164,6 +164,10 @@ br {
 }
 
 .footer__socialmedia {
-    column-gap: 4rem;
+    column-gap: 3rem;
     padding: 0%;
+}
+
+.link__icons {
+    transform: scale(1);
 }
