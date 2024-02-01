@@ -152,7 +152,7 @@ br {
 .footer__infos {
     display: grid;
     align-items: start;
-    grid-column-gap: 25%;
+    grid-column-gap: 20%;
     grid-row-gap: 40%;
     grid-template-columns: repeat(3, 2fr);
     justify-items: start;
