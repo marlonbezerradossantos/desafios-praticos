@@ -151,7 +151,7 @@ br {
 .footer__infos {
     display: grid;
     align-items: start;
-    grid-column-gap: 15%;
+    grid-column-gap: 10%;
     grid-row-gap: 40%;
     grid-template-columns: repeat(3, 2fr);
     justify-items: start;
@@ -159,7 +159,7 @@ br {
 }
 
 .infos__link {
-    font-size: 2rem;
+    font-size: 1.8rem;
     white-space: nowrap;
 }
 
