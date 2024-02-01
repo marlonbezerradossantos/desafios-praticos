@@ -30,11 +30,11 @@ br {
 }
 
 .button {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     font-weight: 400;
     margin: 0%;
-    padding: 1.6%;
-    width: 23%;
+    padding: 1.4%;
+    width: 18%;
 }
 
 .subtitle {
@@ -43,13 +43,18 @@ br {
 }
 
 .subtitle--margin {
-    margin: 11% 0% 2.5% 0%;
+    margin: 11% 0% 1% 0%;
 }
 
 .description {
     font-size: 2.1rem;
     margin-bottom: 10%;
     width: 60%;
+}
+
+.description--margin {
+    margin-bottom: 4%;
+    width: 55%;
 }
 
 .funcionalities {
@@ -92,19 +97,74 @@ br {
 
 .boosts {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
+}
+
+.boosts__container {
+    margin-bottom: 1%;
 }
 
 .container__icon {
-    margin: 0px;
+    margin: 0% auto 3.5rem auto;
+    height: 4.5rem;
 }
 
 .container__title--mod {
-    margin-bottom: 2%;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
 .container__description--mod {
+    font-size: 1.9rem;
     text-align: center;
     margin: auto;
+ 
+}
+
+.companies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    margin: 10% auto 0% auto;
+    width: 90%;
+}
+
+.companies__logo {
+    width: 60%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15%;
+    padding: 5%;
+}
+
+.footer__logo {
+    align-self: center;
+    margin: 0px;
+    padding: 0px;
+    width: 5%;
+}
+
+.footer__infos {
+    display: grid;
+    align-items: start;
+    grid-column-gap: 25%;
+    grid-row-gap: 40%;
+    grid-template-columns: repeat(3, 2fr);
+    justify-items: start;
+    margin-right: 25%;
+}
+
+.infos__link {
+    font-size: 2.2rem;
+    white-space: nowrap;
+}
+
+.footer__socialmedia {
+    column-gap: 4rem;
+    padding: 0%;
 }

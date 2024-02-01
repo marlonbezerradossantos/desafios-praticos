@@ -208,8 +208,6 @@ body {
 
 .link__icons {
     fill: #4C545C;
-    height: 100;
-    width: 100;
 }
 
 .container__link:hover .link__icons {
