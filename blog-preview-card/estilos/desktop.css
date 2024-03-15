@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+main {
+    margin: 10% auto;
+    width: 25%;
+}
+
+.card__tag {
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin: 4% 0% 3% 0%;
+    width: 26%;
+}
+
+.card__date {
+    font-size: 1.3rem;
+    margin-bottom: 4%;
+}
+
+.card__title {
+    font-size: 2.1rem;
+    margin-bottom: 4%;
+}
+
+.card__description {
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+}
+
+.author__profile {
+    width: 12%;
+}
+
+.author__name {
+    font-size: 1.4rem;
+}
