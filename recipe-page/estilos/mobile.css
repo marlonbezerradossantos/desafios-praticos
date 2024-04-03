@@ -33,7 +33,7 @@ main {
 .title {
     color: rgba(0, 0, 0, 0.877);
     font-family: "Young Serif", serif; 
-    font-size: 4.9rem;
+    font-size: 3.9rem;
     font-weight: 400;
     line-height: 4.8rem;
     margin: 7% 0% 7% 0%;
@@ -42,7 +42,7 @@ main {
 .description {
     color: rgba(0, 0, 0, 0.733);
     font-family: 'Outfit', sans-serif;
-    font-size: 2.1rem;
+    font-size: 1.73rem;
     font-weight: 500;
 }
 
@@ -55,8 +55,9 @@ main {
 .time__subtitle {
     color: #6e2e48;
     font-family: 'Outfit', sans-serif;
-    font-size: 2.9rem;
+    font-size: 2.3rem;
     font-weight: 500;
+    margin-bottom: 5%;
 }
 
 .time__list {
@@ -67,8 +68,80 @@ main {
 .list__item {
     font-family: 'Outfit', sans-serif;
     font-size: 1.8rem;
+    margin: 0% 0% 4% 4%;
 }
 
 .list__item::marker {
     color: #6e2e48;
+}
+
+.item__meaning {
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 4%;
+}
+
+strong {
+    color: rgba(0, 0, 0, 0.884);
+    font-weight: 800;
+}
+
+.parts {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+    margin-bottom: 2%;
+    padding: 5% 0%;
+}
+
+.parts__subtitle {
+    color: #69382c;
+    font-family: "Young Serif", serif;
+    font-size: 3.3rem;
+    font-weight: 300;
+    margin-bottom: 4.5%;
+}
+
+.parts ul, ol {
+    margin-left: 4%;
+    list-style-position: mid;
+}
+
+.parts li::marker {
+    color: #69382c;
+}
+
+.parts__description {
+    color: rgba(0, 0, 0, 0.829);
+    font-size: 1.78rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.parts__table {
+    width: 80%;
+}
+
+.table__line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.568);
+    padding: 3%;
+}
+
+.line__header {
+    color: rgba(0, 0, 0, 0.842);
+    font-family: "Outfit", sans-serif;
+    font-size: 1.78rem;
+    font-weight: 500;
+   
+    padding: 3%;
+    text-align: center;
+}
+
+.line__data {
+    color: #69382c;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    justify-self: flex-start;
+    padding: 3%;
+    text-align: left;
 }
