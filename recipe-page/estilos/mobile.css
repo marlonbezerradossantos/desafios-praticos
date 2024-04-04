@@ -119,12 +119,12 @@ strong {
 }
 
 .parts__table {
-    width: 80%;
+    width: 100%;
 }
 
-.table__line {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.568);
-    padding: 3%;
+.parts__table, .table__line:not(:last-child), .table__header:not(:last-child){
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.39);
+    border-collapse: collapse;
 }
 
 .line__header {
@@ -132,16 +132,21 @@ strong {
     font-family: "Outfit", sans-serif;
     font-size: 1.78rem;
     font-weight: 500;
-   
-    padding: 3%;
-    text-align: center;
+    padding: 3% 0% 3% 8%;
+    text-align: left;
+    width: 47%;
 }
 
 .line__data {
     color: #69382c;
     font-family: "Outfit", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     justify-self: flex-start;
     padding: 3%;
     text-align: left;
+    width: 63%;
+}
+
+.border--none {
+    border-bottom: none;   
 }
