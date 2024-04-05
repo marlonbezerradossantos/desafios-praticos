@@ -26,7 +26,7 @@ body {
 }
 
 main {
-    margin: auto;
+    margin: 0% auto 5%;
     width: 85%;
 }
 
@@ -120,11 +120,11 @@ strong {
 
 .parts__table {
     width: 100%;
+    border-collapse: collapse;
 }
 
-.parts__table, .table__line:not(:last-child), .table__header:not(:last-child){
+.table__line:not(:last-child), .table__header:not(:last-child){
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.39);
-    border-collapse: collapse;
 }
 
 .line__header {

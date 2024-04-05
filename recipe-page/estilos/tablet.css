@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f3e5d8;
+}
+
+main {
+    background-color: white;
+    padding: 3% 3% 0% 3%;
+    border-radius: 0px 0px 20px 20px;
+    width: 75%;
+}
+
+.image {
+    border-radius: 10px 10px 0px 0px;
+    margin: 8% auto -1% auto;
+    overflow: hidden;
+    width: 75%;
+}
+
+.image__picture {
+    margin: 0%;
+}
+
+.title {
+    margin: 0% 0% 7% 0%;
+}
+
+.description {
+    font-size: 1.9rem;
+}
