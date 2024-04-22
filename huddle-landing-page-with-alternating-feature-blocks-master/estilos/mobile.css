@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+font-family: "Open Sans", sans-serif;
+font-family: "Poppins", sans-serif;
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body  {
+    font-size: 1.6rem;
+}
+
+header {
+    background-color: #edfbfe;
+    background-image: url("../imagens/bg-hero-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20%;
+    padding: 3%;
+}
+
+.top__image {
+    width: 30%;
+}
+
+.top__button {
+    
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.274);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    padding: 1% 5%;
+}
+
+.header__main {
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 85%;
+}
+
+.main__title {
+    color: #032733;
+    font-size: 3rem;
+    margin-bottom: 7%;
+}
+
+.main__description {
+    color: #032733;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 13%;
+}
+
+.main__button {
+    background-color: #da49a4;
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.801);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    padding: 3.5% 20%;
+}
+
+.main__image {
+    margin: 25% auto;
+    width: 90%;
+}
+
+.image__mockups {
+    width: 100%;
+}
+
+main {
+    padding-bottom: 40%;
+}
+
+.advantages {
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.178);
+    margin: 10% auto;
+    padding-bottom: 10%;
+    text-align: center;
+    width: 90%;
+}
+
+.advantages__image {
+    padding: 10%;
+    
+}
+
+.image__illustration {
+    margin-bottom: 7%;
+    width: 100%;
+}
+
+.advantages__title {
+    color: #032733;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 4%;
+}
+
+.advantages__description {
+    color: rgba(0, 0, 0, 0.726);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    margin: auto;
+    width: 80%;
+}
+
+.getstart {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.178);
+    margin: auto;
+    padding: 10% 9% 15% 9%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 90%;
+}
+
+.getstart__title {
+    color: #02212b;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.1rem;
+    margin-bottom: 12%;
+}
+
+.getstart__button {
+    background-color: #da49a4;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.801);
+    font-family: "Open Sans", sans-serif;
+    padding: 3% 15%;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #00252e;
+}
+
