@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.top__button {
+    font-size: 2.5rem;
+}
+
+.main__title {
+    font-size: 5rem;
+}
+
+.main__description {
+    font-size: 2.8rem;
+}
+
+.main__button {
+    border-radius: 50px;
+    font-size: 3rem;
+    padding: 3.5% 15%;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+}
+
+.advantages__title {
+    font-size: 4.3rem;
+}
+
+.advantages__description {
+    font-size: 2.5rem;
+}
+
+.getstart__title {
+    font-size: 4rem;
+}
+
+.getstart__button {
+    border-radius: 50px;
+    font-size: 2.7rem;
+    padding: 3.5% 15%;
+}
+
+.item__info {
+    font-size: 2.7rem;
+}
+
+.links__item {
+    font-size: 2.7rem;
+}
+
+.allrights {
+    font-size: 2.2rem;
+}

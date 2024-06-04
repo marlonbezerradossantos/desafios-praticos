@@ -3,6 +3,7 @@
 /*
 font-family: "Open Sans", sans-serif;
 font-family: "Poppins", sans-serif;
+Imagem de <a href="https://br.freepik.com/vetores-gratis/colecao-de-logotipo-de-midia-social_3966112.htm#query=social%20media%20icons&position=1&from_view=keyword&track=ais_user&uuid=d4b68830-130e-44e3-9c03-1da9b34b034f">Freepik</a>
 */
 
 * {
@@ -40,12 +41,17 @@ header {
 }
 
 .top__button {
-    
+    color: rgba(0, 0, 0, 0.897);
     border-radius: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.274);
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     padding: 1% 5%;
+    text-decoration: none;
+}
+
+.top__button:hover {
+    color: rgba(0, 0, 0, 0.671);
 }
 
 .header__main {
@@ -75,6 +81,11 @@ header {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     padding: 3.5% 20%;
+    text-decoration: none;
+}
+
+.main__button:hover {
+    background-color: #da49a5ab;
 }
 
 .main__image {
@@ -131,7 +142,7 @@ main {
     margin: auto;
     padding: 10% 9% 15% 9%;
     text-align: center;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
     width: 90%;
 }
 
@@ -151,7 +162,89 @@ main {
     text-decoration: none;
 }
 
-footer {
-    background-color: #00252e;
+.getstart__button:hover {
+    background-color: #da49a5ab;;
 }
 
+footer {
+    background-color: #00252e;
+    padding: 4%;
+}
+
+.contacts__container {
+    transform: translateY(-20%);
+}
+
+.container__logo {
+    color: white;
+    margin-bottom: 5%;
+    width: 45%;
+}
+
+.container__item {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 5%;
+    margin-bottom: 7%;
+}
+
+.container__item--mod {
+    align-items: center;
+}
+
+.item__icon {
+    margin-top: 2%;
+    width: 4%;
+}
+
+.item__icon--big {
+    margin: 0px;
+    width: 6%;
+}
+
+.item__info {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    width: 90%;
+}
+
+.links__item {
+    display: block;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 4%;
+    text-decoration: none;
+}
+
+
+.links--down {
+    margin-bottom: 15%;
+}
+
+.socialmedia {
+    display: flex;
+    column-gap: 2%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.socialmedia__icons {
+    width: 10%;
+}
+
+.socialmedia__icons:hover path{
+    fill: #da49a4;
+}
+
+.allrights {
+    color: rgba(255, 255, 255, 0.76);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-bottom: 7%;
+    text-align: center;
+
+}
