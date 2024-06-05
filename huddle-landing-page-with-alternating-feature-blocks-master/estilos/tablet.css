@@ -49,6 +49,10 @@ main {
     font-size: 2.7rem;
 }
 
+.socialmedia {
+    column-gap: 2%;
+}
+
 .allrights {
     font-size: 2.2rem;
 }
