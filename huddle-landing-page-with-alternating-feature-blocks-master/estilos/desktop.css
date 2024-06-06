@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-body {
-    background-color: rgba(0, 0, 0, 0.486);
-}
-
 header {
     background-image: url("../imagens/bg-hero-desktop.svg");
     padding-top: 2%;
@@ -62,44 +58,107 @@ header {
     width: 90%;
 }
 
+main {
+    padding-bottom: 15%;
+}
+
 
 .advantages {
     display: flex;
+    align-items: center;
     background-color: white;
-
-    padding: 0%;
+    column-gap: 5%;
+    padding: 7%;
     width: 100%;
 }
 
 .advantages__image {
-    padding: 6% 0%;
+    padding: 0%;
+    
 }
 
 .image__illustration {
-    margin: 0%;
-    width: 70%;
-}
-
-.advantages__container {
-    margin-top: 14%;
-    padding: 0% 3%;
+   margin: 0%;
+   width: 90%;
 }
 
 .advantages__container--mod {
-    margin-top: 13%;
-    padding: 0% 0% 0% 8%;
     order: -1;
-    width: 80%;
 }
 
 .advantages__title {
-    font-size: 2.8rem;
+    font-size: 3rem;
     text-align: left;
 }
 
 .advantages__description {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin: 0px;
     text-align: left;
     width: 100%;
+}
+
+footer {
+    padding: 0% 7% 2% 7%;
+}
+
+.getstart {
+    padding: 6% 10%;
+    transform: translateY(-50%);
+    width: 60%;
+}
+
+.getstart__title {
+    font-size: 3rem;
+}
+
+.getstart__button {
+    font-size: 2.3rem;
+    padding: 4% 15%;
+}
+
+.footer__container {
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-items: center;
+}
+
+.container__logo {
+    margin-bottom: 4%;
+    width: 25%;
+}
+
+.contacts__container {
+    transform: translateY(0%);
+}
+
+.item__icon {
+    width: 5%;
+}
+
+.item__icon--big {
+    width: 6%;
+}
+
+.item__info {
+    font-size: 1.3rem;
+}
+
+.links__item {
+    font-size: 1.9rem;
+}
+
+.socialmedia {
+    column-gap: 10%;
+}
+
+.socialmedia__icons {
+    width: 25%;
+}
+
+.allrights {
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+    text-align: right;
 }
