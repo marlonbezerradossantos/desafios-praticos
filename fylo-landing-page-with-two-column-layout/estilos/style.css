@@ -18,3 +18,22 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 1.6rem;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__image {
+    width: 65%;
+}
+
+.navigation__items {
+    
+}
+
+.items__links {
+    display: inline;
+    list-style: none;
+    margin-left: 10%;
+}
