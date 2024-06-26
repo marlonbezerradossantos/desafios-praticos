@@ -15,25 +15,134 @@ html {
 }
 
 body {
+    /* background-color: black; */
     font-family: "Open Sans", sans-serif;
     font-size: 1.6rem;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    align-items: center;
+    background-color: white;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5%;
 }
 
 .logo__image {
-    width: 65%;
+    width: 53%;
 }
 
 .navigation__items {
+    display: flex;
     
+    justify-content: space-between;
 }
 
 .items__links {
-    display: inline;
+    align-self: center;
     list-style: none;
-    margin-left: 10%;
+    max-width: 100%;
 }
+
+.links__link {
+    color: #2b2549;
+    font-size: 1.6rem;
+    font-weight: 500;
+    max-width: 100%;
+    text-decoration: none;
+}
+
+main {
+    margin: 15% auto 0% auto;
+    width: 80%;
+}
+
+.container__hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero__illustration {
+    max-width: 100%;
+    margin-bottom: 11%;
+}
+
+.about__title {
+    color: #09063f;
+    font-size: 2.9rem;
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+.about__description {
+    color: #1a183d;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 8%;
+    text-align: center;
+}
+
+.form__input {
+    display: block;
+    border: 1px solid #09063f;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 4%;
+    padding: 4%;
+    width: 100%;
+}
+
+.form__send {
+    display: block;
+    background-color: #2f65f9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 35%;
+    padding: 4%;
+    width: 100%;
+}
+
+.container__bellow {
+    background-color: #f9f8fe;
+}
+
+.container__curve {
+    transform: translateY(11%);
+}
+
+.curve__img {
+    width: 100%;
+}
+
+.bellow__container {
+    margin: auto;
+    width: 90%;
+}
+
+.container__hero--mod {
+    margin-bottom: 25%;
+}
+
+.hero__illustration--mod {
+    margin: auto;
+    width: 97%;
+}
+
+.info__title {
+    color: #100b43;
+    font-size: 2.1rem;
+    margin-bottom: 8%;
+    text-align: center;
+}
+
+.info__description {
+    color: #8c8aa0;
+    font-size: 1.7rem;
+    margin-bottom: 5%;
+}
+
