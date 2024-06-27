@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fylo Landing Page With Two Column Layout</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px)">
 </head>
 <body>
     <header>
@@ -50,14 +51,20 @@
                 <h2 class="info__title">Stay productive, wherever you are</h2>
                 <p class="info__description">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs</p>
                 <p class="info__description">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
-                <a href="#" class="container__link">See how Fylo works <img src="imagens/icon-arrow.svg" alt="ícone de uma seta" class="link__icon"></a>
+                
+                <div class="info__cont">
+                    <a href="#" class="cont__link">See how Fylo works <img src="imagens/icon-arrow.svg" alt="ícone de uma seta" class="link__icon"></a>
+                </div>
+
                 <div class="container__testimonial">
                     <img src="imagens/icon-quotes.svg" alt="" class="testimonial__aspas">
                     <p class="testimonial__coment">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                     <div class="testimonial__profile">
-                        <img src="#imagens/avatar-testimonial.jpg" alt="" class="profile__avatar">
-                        <h3 class="profile__name">Kyle Burton</h3>
-                        <p class="profile__occupation">Founder & CEO, Huddle</p>
+                        <img src="imagens/avatar-testimonial.jpg" alt="" class="profile__avatar">
+                        <div class="profile__container">
+                            <h3 class="container__name">Kyle Burton</h3>
+                            <p class="container__occupation">Founder & CEO, Huddle</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -69,15 +76,15 @@
         <h1 class="getstarted__title">Get early access today</h1>
         <p class="getstarted__description">It only takes a minute to sign up and our free starter tier is etremely generous. if you have any questions, our support team would be happy to help you.</p>
         <form action="" class="getstarted__form">
-            <input type="email" class="form__input">
-            <input type="submit" value="Get Started For Free" class="form__send">
+            <input placeholder="email@example.com" type="email" class="form__input form__input--mod">
+            <input type="submit" value="Get Started For Free" class="form__send form__send--mod">
         </form>
     </section>
     
     
     <footer>
 
-        <img src="imagens/logo.svg" alt="Logotipo da Fylo inc" class="footer__logo">
+        <img src="imagens/logo-mod.svg" alt="Logotipo da Fylo inc" class="footer__logo">
         <div class="footer__contacts">
             <span class="contacts__item">
                 <img src="imagens/icon-phone.svg" alt="Ícone de um telefone" class="item__icon">

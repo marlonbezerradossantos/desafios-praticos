@@ -84,7 +84,7 @@ main {
 
 .form__input {
     display: block;
-    border: 1px solid #09063f;
+    border: 1px solid #09063fcb;
     border-radius: 5px;
     font-family: "Raleway", sans-serif;
     font-size: 1.6rem;
@@ -109,6 +109,7 @@ main {
 
 .container__bellow {
     background-color: #f9f8fe;
+    padding-bottom: 20%;
 }
 
 .container__curve {
@@ -146,3 +147,160 @@ main {
     margin-bottom: 5%;
 }
 
+.info__cont {
+    margin: auto;
+    width: 30%;
+}
+
+.cont__link {
+    display: flex;
+    align-items: center;
+    border-bottom: 1.8px solid #3fa290;
+    color: #3fa290;
+    column-gap: 3%;
+    font-weight: 500;
+    justify-content: center;
+    margin: 11% auto;
+    padding: 1% 0%;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.link__icon {
+    width: 12%;
+}
+
+.container__testimonial {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
+    margin: auto;
+    padding: 5% 7%;
+    width: 90%;
+}
+
+.testimonial__aspas {
+    margin-bottom: 3%;
+    width: 6%;
+}
+
+.testimonial__coment {
+    color: #0f0c29;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 7%;
+}
+
+.testimonial__profile {
+    display: flex;
+    align-items: center;
+    column-gap: 5%;
+    row-gap: 5%;
+}
+
+.profile__avatar {
+    border-radius: 50%;
+    width: 12%;
+}
+
+.container__name {
+    color: #1b1749;
+    font-size: 1.8rem;
+    margin-bottom: 2%;
+}
+
+.container__occupation{
+    color: #000012;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.getstarted {
+    background-color: #4c4d77;
+    padding: 14% 7% 20% 7%;
+}
+
+.getstarted__title {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+.getstarted__description {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 170%;
+    margin-bottom: 8%;
+    text-align: center;
+}
+
+.form__input--mod {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
+    margin: 0% auto 3% auto;
+    padding: 3%;
+    width: 80%;
+}
+
+.form__send--mod {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
+    margin: auto;
+    padding: 3%;
+    width: 80%;
+}
+
+footer {
+    background-color: #07043b;
+    padding: 12% 7%;
+}
+
+.footer__logo {
+    margin-bottom: 8%;
+}
+
+.footer__contacts {
+    margin-bottom: 12%
+}
+
+.contacts__item {
+    display: flex;
+    align-items: center;
+    column-gap: 5%;
+    margin-bottom: 4%;
+}
+
+.item__info {
+    color: #ffffff;
+    
+}
+
+.footer__infos {
+    margin-bottom: 10%;
+}
+
+.infos__list {
+    
+}
+
+.list__items {
+    list-style: none;
+    margin-bottom: 4%;
+}
+
+.items__links {
+    color: rgba(255, 255, 255, 0.801);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.socialmedia {
+    display: flex;
+    column-gap: 3%;
+    justify-content: center;
+}
+
+.socialmedia__icon {
+    width: 8%;
+}
