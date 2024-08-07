@@ -148,28 +148,31 @@ main {
 }
 
 .info__cont {
-    margin: auto;
-    width: 30%;
+    display: inline-block;
+    align-items: center;
+    border-bottom: 1.8px solid #3fa290;
+    column-gap: 2%;
+    justify-content: center;
+    margin: 10% auto;
+    padding-bottom: 1.7%;
+    text-align: center;
+    width: max-content; 
 }
 
 .cont__link {
-    display: flex;
-    align-items: center;
-    border-bottom: 1.8px solid #3fa290;
+    display: inline-block;
     color: #3fa290;
-    column-gap: 3%;
-    font-weight: 500;
-    justify-content: center;
-    margin: 11% auto;
-    padding: 1% 0%;
-    text-align: center;
+    font-size: 1.5rem;
     text-decoration: none;
-    
+    white-space: nowrap;
 }
 
 .link__icon {
-    width: 12%;
+   display: inline;
+   width: 20%;
 }
+
+
 
 .container__testimonial {
     border-radius: 5px;
