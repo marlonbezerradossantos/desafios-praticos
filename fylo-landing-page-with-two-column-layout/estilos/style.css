@@ -149,7 +149,6 @@ main {
 
 .info__cont {
     display: flex;
-    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     border-bottom: 1.8px solid #3fa290;
     column-gap: 2%;
@@ -157,23 +156,27 @@ main {
     margin: 10% auto;
     padding-bottom: 1.5%;
     text-align: center;
-    width: 38%;
+    width: max-content;
 }
 
 .cont__link {
-    display: inline-block;
     color: #3fa290;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
 }
 
-.link__icon {
-   display: inline;
-   flex-shrink: 0;
-   width: 13%;
+.teste {
+    width: 70%;
 }
+
+.link__icon {
+   flex-shrink: 0;
+   max-width: 100%;
+}
+
+
 
 
 
