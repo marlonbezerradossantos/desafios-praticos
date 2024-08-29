@@ -147,38 +147,30 @@ main {
     margin-bottom: 5%;
 }
 
-.info__cont {
+.container {
     display: flex;
-    align-items: center;
-    border-bottom: 1.8px solid #3fa290;
-    column-gap: 2%;
-    justify-content: flex-start;
-    margin: 10% auto;
-    padding-bottom: 1.5%;
-    text-align: center;
-    width: max-content;
-}
-
-.cont__link {
-    color: #3fa290;
-    font-size: 1.7rem;
-    text-align: center;
-    text-decoration: none;
+    justify-content: center;
+    margin: 10% 0%;
     white-space: nowrap;
 }
 
-.teste {
-    width: 70%;
+.info__cont {
+    border-bottom: 2px solid #499386;
+    padding-bottom: 1%;
 }
 
-.link__icon {
-   flex-shrink: 0;
-   max-width: 100%;
+.cont__link {
+    color: #499386;
+    font-weight: 500;
+    text-decoration: none;
+    vertical-align: middle;
 }
 
-
-
-
+.icon__img {
+    flex-shrink: 0;
+    vertical-align: middle;
+    width: 12.5%;
+}
 
 .container__testimonial {
     border-radius: 5px;
