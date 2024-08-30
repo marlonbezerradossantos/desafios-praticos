@@ -152,24 +152,34 @@ main {
     justify-content: center;
     margin: 10% 0%;
     white-space: nowrap;
+    
 }
 
 .info__cont {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
     border-bottom: 2px solid #499386;
     padding-bottom: 1%;
 }
 
 .cont__link {
     color: #499386;
+    font-size: 1.6rem;
     font-weight: 500;
     text-decoration: none;
-    vertical-align: middle;
+}
+
+.cont__icon {
+    display: inline-block;
+    width: 10%;
 }
 
 .icon__img {
     flex-shrink: 0;
     vertical-align: middle;
-    width: 12.5%;
+    width: 100%;
 }
 
 .container__testimonial {
