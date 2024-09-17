@@ -1,15 +1,11 @@
 @charset "UTF-8";
 
-.logo__image {
-    width: 70%;
-}
-
 .links__link {
     font-size: 2.5rem;
 }
 
 .about__title {
-    font-size: 3.6rem;
+    font-size: 4rem;
 }
 
 .about__description {
@@ -21,25 +17,65 @@
 }
 
 .form__send {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 }
 
 .info__title {
-    font-size: 3.2rem;
+    font-size: 3rem;
 }
 
 .info__description {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 .info__cont {
-    width: 38%;
+    padding-bottom: 2%;
 }
 
-.cont__link {
-    font-size: 2.5rem;
+.cont__phrase {
+    font-size: 2.4rem
 }
 
-.icon__image {
-    width: 1%;
+.cont__contain {
+    width: 3.5%;
+}
+
+.testimonial__coment {
+    font-size: 2rem;
+}
+
+.container__name {
+    font-size: 2rem;
+}
+
+.container__occupation {
+    font-size: 1.5rem;
+}
+
+.getstarted__title {
+    font-size: 3rem;
+}
+
+.getstarted__description {
+    font-size: 2.4rem;
+}
+
+.footer__logo {
+    width: 30%;
+}
+
+.item__icon {
+    width: 4%;
+}
+
+.item__info {
+    font-size: 2rem;
+}
+
+.items__links {
+    font-size: 2rem
+}
+
+.socialmedia__icon {
+    width: 7%;
 }

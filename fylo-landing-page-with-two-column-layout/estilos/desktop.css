@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+main {
+    margin-top: 0%;
+    width: 90%;
+}
+
+.main__container {
+    display: flex;
+    align-items: center;
+    column-gap: 5%;
+    flex-direction: row-reverse;
+}
+
+.about__title {
+    font-size: 3.1rem;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+.about__description {
+    color: #0a073e;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 4%;
+    text-align: left;
+}
+
+.form__input {
+    font-size: 1rem;
+}
+
+.form__send {
+    font-size: 1rem;
+}
+
+.about__form {
+    display: flex;
+    
+    column-gap: 2%;
+    flex-direction: row;
+}
+
+.form__input {
+    font-size: 1.2rem;
+    margin-bottom: 0%;
+    padding: 1.5%;
+    width: 65%;
+}
+
+.form__send {
+    font-size: 1.2rem;
+    margin-bottom: 0%;
+    padding: 2%;
+    width: 35%;
+}
+
+.container__hero {
+    display: block;
+    margin-bottom: 8%;
+    width: 85%;
+}
+
+/* ////////////// */
+
+.container__bellow {
+    padding-bottom: 8%;
+}
+
+.bellow__container {
+    display: flex;
+    column-gap: 2%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.container__info {
+   width: 70%;
+}
+
+.info__title {
+    font-size: 3.1rem;
+    margin-bottom: 4%;
+    text-align: left;
+}
+
+.info__contain {
+    width: 90%;
+}
+
+.info__description {
+    color: #0a073e;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.container {
+    margin: 1% 0% 7% 0%;
+    padding-bottom: 1%;
+    text-align: left;
+}
+
+.info__cont {
+    padding-bottom: 1%;
+}
+
+.cont__phrase {
+    font-size: 1.5rem;
+    margin-right: 1%;
+}
+
+.cont__contain {
+    width: 2.5%;
+}
+
+.container__testimonial {
+    margin: 0%;
+    padding: 4%;
+    width: 60%;
+}
+
+.testimonial__aspas {
+    margin-bottom: 0%;
+    width: 4%;
+}
+
+.testimonial__coment {
+    font-size: 1.4rem
+}
+
+.testimonial__profile {
+    column-gap: 3%;
+}
+
+.container__name {
+    font-size: 1.3rem;
+}
+
+.container__occupation {
+    font-size: 1.1rem;
+}
+
+.profile__avatar {
+    width: 10%;
+}
+
+.container__hero--mod {
+    width: 50%;
+}
+
+.getstarted {
+    display: flex;
+}
+
+.cont {
+    width: 60%;
+}
+
+.getstarted__title {
+    text-align: left;
+}
+
+.getstarted__description {
+    text-align: left;
+}
+
+.getstarted__form {
+    
+}
+
+.form__input--mod {
+    width: 100%;
+}
+
+.form__send--mod {
+
+}

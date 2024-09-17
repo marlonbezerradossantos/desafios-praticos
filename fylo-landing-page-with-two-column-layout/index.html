@@ -6,6 +6,7 @@
     <title>Fylo Landing Page With Two Column Layout</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 1024px)">
 </head>
 <body>
     <header>
@@ -49,8 +50,10 @@
             </figure>
             <section class="container__info">
                 <h2 class="info__title">Stay productive, wherever you are</h2>
-                <p class="info__description">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs</p>
-                <p class="info__description">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+                <div class="info__contain">
+                    <p class="info__description">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs</p>
+                    <p class="info__description">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+                </div>
           
                 <div class="container">
                     <span class="info__cont">
@@ -78,8 +81,10 @@
     </div>  
 
     <section class="getstarted">
-        <h1 class="getstarted__title">Get early access today</h1>
-        <p class="getstarted__description">It only takes a minute to sign up and our free starter tier is etremely generous. if you have any questions, our support team would be happy to help you.</p>
+        <div class="cont">
+            <h1 class="getstarted__title">Get early access today</h1>
+            <p class="getstarted__description">It only takes a minute to sign up and our free starter tier is etremely generous. if you have any questions, our support team would be happy to help you.</p>
+        </div>
         <form action="" class="getstarted__form">
             <input placeholder="email@example.com" type="email" class="form__input form__input--mod">
             <input type="submit" value="Get Started For Free" class="form__send form__send--mod">
