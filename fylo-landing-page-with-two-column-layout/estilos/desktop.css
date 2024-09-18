@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
+header {
+    padding: 4%;
+}
+
+.logo__image {
+    width: 25%;
+}
+
+.navigation__items {
+    justify-content: flex-end;
+    column-gap: 10%;
+}
+
+.links__link {
+    font-size: 2rem;
+}
+
 main {
     margin-top: 0%;
     width: 90%;
@@ -36,7 +53,6 @@ main {
 
 .about__form {
     display: flex;
-    
     column-gap: 2%;
     flex-direction: row;
 }
@@ -61,8 +77,6 @@ main {
     width: 85%;
 }
 
-/* ////////////// */
-
 .container__bellow {
     padding-bottom: 8%;
 }
@@ -76,7 +90,7 @@ main {
 }
 
 .container__info {
-   width: 70%;
+    width: 70%;
 }
 
 .info__title {
@@ -153,28 +167,75 @@ main {
 
 .getstarted {
     display: flex;
+    justify-content: space-between;
+    padding: 5%;
 }
 
 .cont {
-    width: 60%;
+    width: 36%;
 }
 
 .getstarted__title {
+    font-size: 2.5rem;
+    margin-bottom: 2%;
     text-align: left;
 }
 
 .getstarted__description {
+    font-size: 1.4rem;
+    margin-bottom: 0%;
     text-align: left;
 }
 
 .getstarted__form {
-    
+    width: 45%;
 }
 
 .form__input--mod {
-    width: 100%;
+    font-size: 1.4rem;
+    margin: 0% 0% 2% 0%;
+    padding: 2.5%;
+    width: 90%;
 }
 
 .form__send--mod {
+    font-size: 1.4rem;
+    margin: 0%;
+    padding: 2.5%;
+    width: 50%;
+}
 
+footer {
+    padding: 4%;
+}
+
+.footer__logo {
+    margin-bottom: 2%;
+    width: 10%;
+}
+
+.contain__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer__infos {
+    margin-bottom: 0%
+}
+
+.item__info {
+    font-size: 1.6rem;
+}
+
+.items__links {
+    font-size: 1.6rem;
+}
+
+.socialmedia {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.socialmedia__icon {
+    width: 10%;
 }

@@ -52,6 +52,10 @@ header {
     text-decoration: none;
 }
 
+.links__link:hover {
+    border-bottom: 1px solid #2b2549;
+}
+
 main {
     margin: 15% auto 0% auto;
     width: 80%;
@@ -107,6 +111,10 @@ main {
     width: 100%;
 }
 
+.form__send:hover {
+    background-color: #6e9afd;
+}
+
 .container__bellow {
     background-color: #f9f8fe;
     padding-bottom: 20%;
@@ -160,6 +168,10 @@ main {
     width: max-content;
 }
 
+.info__cont:hover {
+    border-bottom: 1px solid #87d8c7;
+}
+
 .cont__phrase {
     display: inline;
     color: #369d8c;
@@ -167,6 +179,10 @@ main {
     margin-right: 1.5%;
     vertical-align: middle;
     white-space: nowrap;
+}
+
+.cont__phrase:hover, .info__cont {
+    color: #87d8c7;
 }
 
 .cont__contain {
@@ -284,15 +300,14 @@ footer {
 
 .item__info {
     color: #ffffff;
-    
+}
+
+.item__info:hover, .items__links:hover {
+    color: #6e7bc1;
 }
 
 .footer__infos {
     margin-bottom: 10%;
-}
-
-.infos__list {
-    
 }
 
 .list__items {
