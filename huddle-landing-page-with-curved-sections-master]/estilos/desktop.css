@@ -135,6 +135,7 @@ article {
 footer {
     display: flex;
     flex-direction: row-reverse;
+    padding-bottom: 0%;
 }
 
 .footer__contact {
@@ -147,6 +148,12 @@ footer {
 
 .contact__description {
     font-size: 1.7rem;
+    margin-bottom: 5%;
+    width: 75%;
+}
+
+.container-info__info {
+    margin-bottom: 1.5%;
 }
 
 .info__contact {
@@ -162,6 +169,22 @@ footer {
 }
 
 .newsletter__title {
-    font-size: ;
+    font-size: 2.7rem;
 }
 
+.newsletter__description {
+    font-size: 1.7rem;
+}
+
+.email__input {
+    padding: 3%;
+}
+
+.email__send {
+    font-size: 1.6rem;
+}
+
+.social-media {
+    justify-content: flex-start;
+    padding-top: 10%;
+}
