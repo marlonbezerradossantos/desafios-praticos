@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    /* background-color: lightgray; */
+    /* background-color: rgb(134, 134, 134); */
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
 }
@@ -114,7 +114,7 @@ main {
 .container__number {
     color: #001b25;
     font-family: 'Open Sans', sans-serif;
-    font-size: 8rem;
+    font-size: 6rem;
 }
 
 .container__number-meaning {
@@ -130,6 +130,10 @@ article {
 
 .article__blue {
     background-color: #f6fbff;
+}
+
+.article__blue--more-padding {
+    padding-top: 10%;
 }
 
 .article__illustration-container {
@@ -160,28 +164,132 @@ article {
 .curved-background {
     background-repeat: no-repeat;
     background-size: cover;
-    
+    transform: translateY(2%);
 }
 
 .curved-background--top1 {
     background-image: url("../imagens/bg-section-top-mobile-1.svg");
-    
+    margin-top: 10%;
     padding: 15%;
 }
 
 .curved-background--top2 {
     background-image: url("../imagens/bg-section-top-mobile-2.svg");
-    
+    margin-top: 10%;
     padding: 14%;
 }
 
 .curved-background--bottom1 {
     background-image: url("../imagens/bg-section-bottom-mobile-1.svg");
-
+    margin-bottom: 30%;
     padding: 8%;
 }
 
 .curved-background--bottom2 {
     background-image: url("../imagens/bg-section-bottom-mobile-2.svg");
+    margin-bottom: 30%;
     padding: 15%;
 }
+
+.call-to-action {
+    margin: 0% auto 60% auto;
+    text-align: center;
+    width: 80%;
+}
+
+.call-to-action__title {
+    color: #112029;
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+
+.curved-background--footer {
+    background-image: url("../imagens/bg-footer-top-mobile.svg");
+    padding: 6.5%;
+}
+
+footer {
+    background-color: #00252e;
+    padding: 15% 6% 15% 6%;
+}
+
+.newsletter__title {
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+
+.newsletter__description {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 10%;
+    width: 95%;
+}
+
+.newsletter__email {
+    display: flex;
+    flex-direction: column;
+}
+
+.email__input {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 4%;
+    padding: 3.6%;
+}
+
+.email__send {
+    align-self: flex-end;
+    background-color: #fe52c0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 2.8%;
+    width: 35%;
+}
+
+.contact__logo {
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+.contact__description {
+    color: white;
+    margin-bottom: 10%;
+    width: 90%;
+}
+
+.contact__container-info {
+    margin-bottom: 10%;
+}
+
+.container-info__info {
+    display: flex;
+    align-items: center;
+    column-gap: 4%;
+}
+
+.icon__image {
+    vertical-align: middle;
+}
+
+.info__contact {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.social-media {
+    display: flex;
+    column-gap: 3%;
+    justify-content: center;
+}
+
+.social-media__icon {
+    width: 7%;
+}
+
+

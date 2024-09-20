@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huddle Landing Page</title>
     <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 1024px)">
 </head>
 <body>
     <header>
@@ -41,68 +43,82 @@
     <div class="curved-background curved-background--top1"></div>
    
 
-    <article class="article__blue">
+    <article class="article__blue article--inverted">
         <figure class="article__illustration-container">
             <img src="imagens/illustration-grow-together.svg" alt="Ilustração de um homem e uma mulher com um fundo de conversas de rede social" class="illustraton-container__illustration">
         </figure>
-        <h2 class="article__title">Grow Together</h2>
-        <p class="article__description">Generate meaningful discussion with your audience and build a strong, loyal community. Think of insightful conversations you miss out on with a feedback form.</p>
+        <div class="article__container-texts">
+            <h2 class="article__title">Grow Together</h2>
+            <p class="article__description">Generate meaningful discussion with your audience and build a strong, loyal community. Think of insightful conversations you miss out on with a feedback form.</p>
+        </div>
     </article>
 
     <div class="curved-background curved-background--bottom1"></div>
 
-    <article>
+    <article class="article--more-padding">
         <figure class="article__illustration-container">
             <img src="imagens/illustration-flowing-conversation.svg" alt="Ilustração de um grupo de pessoas conversando em uma mesa ao ar livre" class="illustraton-container__illustration">
         </figure>
-        <h2 class="article__title">Flowing Conversations</h2>
-        <p class="article__description">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        <div class="article__container-texts article__container-texts--margin">
+            <h2 class="article__title">Flowing Conversations</h2>
+            <p class="article__description article__description--all-width">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        </div>
     </article>
 
     <div class="curved-background curved-background--top2"></div>
 
-    <article class="article__blue">
+    <article class="article__blue article__blue--more-padding article--inverted">
         <figure class="article__illustration-container">
             <img src="imagens/illustration-your-users.svg" alt="Ilustração de 3 pessoas colando balões de conversas em uma parede"  class="illustraton-container__illustration">
         </figure>
-        <h2 class="article__title">Your Users</h2>
-        <p class="article__description">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your users can start chatting immediately.</p>
+        <div class="article__container-texts">
+            <h2 class="article__title">Your Users</h2>
+            <p class="article__description">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your users can start chatting immediately.</p>
+        </div>
     </article>
 
     <div class="curved-background curved-background--bottom2"></div>
 
     <section class="call-to-action">
         <h2 class="call-to-action__title">Ready To Build Your Community?</h2>
-        <a href="#" class="call-to-action__link">Get Started For Free</a>
+        <a href="#" class="main__link main__link--smaller">Get Started For Free</a>
     </section>
+
+    <div class="curved-background curved-background--footer"></div>
 
     <footer>
         <article class="footer__newsletter">
             <h3 class="newsletter__title">NEWSLETTER</h3>
-            <p class="newsletter__description">To receive tips on how to grow your community, sign up to our weekly newsletter. We'll never send spam or pass your e-mail address</p>
-            <input type="text" name="e-mail" id="email" class="newsletter__email-input">
-            <input type="submit" value="Subscribe" class="newsletter__email-submit">
+            <p class="newsletter__description">To receive tips on how to grow your community, sign up to our weekly newsletter. We'll never send spam or pass your email address</p>
+            <div class="newsletter__email">
+                <input type="text" name="e-mail" id="email" class="email__input" placeholder="Insira seu e-mail aqui">
+                <input type="submit" value="Subscribe" class="email__send">
+            </div>
         </article>
 
         <section class="footer__contact">
-            <img src="" alt="Logotipo da Huddle" class="contact__logo">
+            <img src="imagens/logo-2.svg" alt="Logotipo da Huddle" class="contact__logo">
             <p class="contact__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, commodi. Omnis veniam dicta est, molestiae dolorem, tenetur tempore nemo.</p>
 
             <div class="contact__container-info">
                 <span class="container-info__info">
-                    <img src="" alt="Ícone de um telefone" class="info__icon">
+                    <div class="info__icon">
+                        <img src="imagens/icon-phone.svg" alt="Ícone de um telefone" class="icon__image">
+                    </div>
                     <p class="info__contact">Phone: +1-543-123-4567</p>
                 </span>
                 <span class="container-info__info">
-                    <img src="" alt="Ícone de um e-mail" class="info__icon">
+                    <div class="info__icon">
+                        <img src="imagens/icon-email.svg" alt="Ícone de um e-mail" class="icon__image">
+                    </div>
                     <p class="info__contact">example@company.com</p>
                 </span>
             </div>
 
             <span class="social-media">
-                <img src="" alt="Ícone do Facebook" class="social-media__icon">
-                <img src="" alt="Ícone do Instagram" class="social-media__icon">
-                <img src="" alt="Ícone do Twitter" class="social-media__icon">
+                <img src="imagens/logo-facebook.svg" alt="Ícone do Facebook" class="social-media__icon">
+                <img src="imagens/logo-instagram.svg" alt="Ícone do Instagram" class="social-media__icon">
+                <img src="imagens/logo-twitter.svg" alt="Ícone do Twitter" class="social-media__icon">
             </span>
         </section>
     </footer>

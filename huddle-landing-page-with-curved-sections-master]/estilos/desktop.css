@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+header {
+    padding: 2%;
+}
+
+.header__link {
+    padding: 1% 3.5%;
+}
+
+.main__title {
+    font-size: 5rem;
+    margin: 0% auto 5% auto;
+    width: 70%;
+}
+
+.main__description {
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+}
+
+.main__link {
+    margin-bottom: 15%;
+    width: 40%;
+
+}
+
+.main__image-container {
+    margin-bottom: 10%;
+}
+
+.main__numbers-container {
+    align-items: flex-start;
+    column-gap: 8%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.numbers-container__container {
+    margin: 0%;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    padding: 4%;
+    margin: 0px;
+}
+
+.article--inverted {
+    flex-direction: row-reverse;
+}
+
+.article--more-padding {
+    padding: 15% 0% 10% 0%;
+}
+
+.article__container-texts--margin {
+    margin-left: 10%;
+}
+
+.article__blue--more-padding {
+    padding-top: 5%;
+}
+
+.article__title {
+    font-size: 3rem;
+    text-align: left;
+}
+
+.article__description {
+    font-size: 2rem;
+    margin: 0%;
+    text-align: left;
+    
+}
+
+.article__description--all-width {
+    width: 100%;
+}
+
+.article__illustration-container {
+    margin: 0%;
+    width: 100%;
+}
+
+.illustraton-container__illustration {
+    width: 100%;
+}
+
+.curved-background {
+    padding: 5%;
+    margin: 0px;
+}
+
+.curved-background--top1 {
+    background-image: url("../imagens/bg-section-top-desktop-1.svg");
+    margin-top: 10%;
+    
+}
+
+.curved-background--top2 {
+    background-image: url("../imagens/bg-section-top-desktop-2.svg");
+    
+}
+
+.curved-background--bottom1 {
+    background-image: url("../imagens/bg-section-bottom-desktop-1.svg");
+   
+    transform: translateY(-1%);
+}
+
+.curved-background--bottom2 {
+    background-image: url("../imagens/bg-section-bottom-desktop-2.svg");
+    
+    transform: translateY(-1%);
+}
+
+.call-to-action {
+    padding-top: 15%;
+    margin-bottom: 0%;
+}
+
+.call-to-action__title {
+    font-size: 3.5rem;
+    margin-bottom: 2.5%;
+}
+
+.main__link--smaller {
+    font-size: 2rem;
+    padding: 1% 2%;
+    width: 30%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.footer__contact {
+    padding: 4%;
+}
+
+.contact__logo {
+    width: 70%;
+}
+
+.contact__description {
+    font-size: 1.7rem;
+}
+
+.info__contact {
+    font-size: 1.6rem;
+}
+
+.info__icon {
+    width: 3.5%;
+}
+
+.footer__newsletter {
+    display: block;
+}
+
+.newsletter__title {
+    font-size: ;
+}
+
