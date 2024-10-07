@@ -47,6 +47,11 @@ header {
     text-decoration: none;
 }
 
+.header__link:hover {
+    border: 1px solid #fd53bfa1;
+    color: #fd53bfa1;
+}
+
 main {
     margin: auto;
     width: 78%;
@@ -79,6 +84,10 @@ main {
     text-align: center;
     text-decoration: none;
     width: 62%;
+}
+
+.main__link:hover {
+    background-color: #ff8ed6;
 }
 
 .main__image-container {
@@ -240,6 +249,10 @@ footer {
     padding: 3.6%;
 }
 
+.email__input:focus {
+    outline: 2px solid red;
+}
+
 .email__send {
     align-self: flex-end;
     background-color: #fe52c0;
@@ -250,6 +263,10 @@ footer {
     font-weight: 600;
     padding: 2.8%;
     width: 35%;
+}
+
+.email__send:hover {
+    background-color: #ff8ed6;
 }
 
 .contact__logo {
@@ -290,6 +307,10 @@ footer {
 
 .social-media__icon {
     width: 7%;
+}
+
+.social-media__icon:hover path{
+    fill: #00c8fd;
 }
 
 

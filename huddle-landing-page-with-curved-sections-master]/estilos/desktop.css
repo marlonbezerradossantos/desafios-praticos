@@ -176,11 +176,21 @@ footer {
     font-size: 1.7rem;
 }
 
+.newsletter__email {
+    align-items: center;
+    column-gap: 10%;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .email__input {
-    padding: 3%;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    padding: 2.8%;
 }
 
 .email__send {
+    align-self: flex-start;
     font-size: 1.6rem;
 }
 
