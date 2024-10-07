@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    
+}
+
+section {
+    border: 1px solid blue;
+    margin-bottom: 10%;
+}
