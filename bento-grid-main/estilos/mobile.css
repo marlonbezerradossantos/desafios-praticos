@@ -1,10 +1,215 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* font-family: "DM Sans", sans-serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    font-size: 62.5%;
+}
 
 body {
-    
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.6rem;
+}
+
+main {
+    padding: 7% 5% ;
 }
 
 section {
-    border: 1px solid blue;
+    border-radius: 15px;
     margin-bottom: 10%;
 }
+
+.main__section-1 {
+    background-color: #6a47ca;
+    padding: 9%;
+}
+
+.section-1__title {
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 45px;
+    margin: 0% auto 6% auto;
+    text-align: center;
+    width: 80%;
+}
+
+.title--yellow {
+    color: #fcca67;
+    font-weight: 400;
+}
+
+.section-1__container {
+    margin: auto;
+    width: 70%;
+}
+
+.container__5-stars {
+    max-width: 100%;
+}
+
+.section-1__description {
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.main__section-2 {
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.151);
+    padding: 6%;
+}
+
+.section-2__container {
+    margin: 0% auto 2% auto;
+    width: 100%;
+}
+
+.container__socialmedias {
+    max-width: 100%;
+}
+
+.section-2__description {
+    line-height: 23px;
+}
+
+.main__section-3 {
+    background-color: #ffcc69;
+    padding: 5% 5% 0% 5%;
+}
+
+.section-3__title {
+    color: rgba(0, 0, 0, 0.945);
+    font-size: 2.8rem;
+    line-height: 25px;
+    margin-bottom: 3%;
+}
+
+.container__calendar {
+    max-width: 70%;
+    transform: translateY(3%);
+}
+
+.main__section-4 {
+    background-color: #dcd1fc;
+    padding: 8% 6%;
+}
+
+.section-4__container {
+    margin-bottom: 5%;
+}
+
+.container__chart {
+    max-width: 100%;
+}
+
+.section-4__title {
+    font-size: 3.1rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+.section-4__description {
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+}
+
+.main__section-5 {
+    background-color: #7651dc;
+    padding: 5%;
+}
+
+.section-5__container {
+    margin: 0% auto 9% ;
+    width: 60%;
+}
+
+.container__insights {
+    max-width: 100%;
+}
+
+.section-5__description {
+    color: white;
+    font-size: 3.5rem;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.main__section-6 {
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.151);
+    padding: 6%;
+}
+
+.section-6__growth {
+    font-size: 4rem;
+    margin-bottom: 1.5%;
+}
+
+.section-6__description {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 6%;
+}
+
+.section-6__container {
+    width: 65%;
+}
+
+.container__illustration {
+    max-width: 100%;
+}
+
+.main__section-7 {
+    background-color: #faeee2;
+    padding: 9%;
+}
+
+.section-7__title {
+    font-size: 3.4rem;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 8%;
+}
+
+.title--purple {
+    color: #684ab4;
+    font-style: italic;
+}
+
+.section-7__container {
+    width: 68%;
+}
+
+.container__button-illustration {
+    max-width: 100%;
+}
+
+.main__section-8 {
+    background-color: #ffcc69;
+    padding: 7%;
+}
+
+.section-8__title {
+    font-size: 3.5rem;
+    line-height: 35px;
+    margin-bottom: 7%;
+    width: 95%;
+}   
+
+.container__chat-AI {
+    max-width: 74%;
+}
+
