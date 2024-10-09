@@ -1,0 +1,16 @@
+@charset "UTF-8";
+    /*  'sec7 sec1 sec1 sec4'
+        'sec7 sec2 sec1 sec4'
+        'sec8 sec2 sec3 sec4'
+        'sec8 sec2 sec5 sec5' */
+main {
+    display: grid;
+    column-gap: 4.5%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+        'sec7 sec1 sec1 sec4'
+        'sec7 sec2 sec1 sec4'
+        'sec8 sec2 sec3 sec4'
+        'sec8 sec2 sec5 sec5' 
+    ;
+}
