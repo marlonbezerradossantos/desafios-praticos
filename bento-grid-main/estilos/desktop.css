@@ -1,16 +1,132 @@
 @charset "UTF-8";
-    /*  'sec7 sec1 sec1 sec4'
-        'sec7 sec2 sec1 sec4'
-        'sec8 sec2 sec3 sec4'
-        'sec8 sec2 sec5 sec5' */
+
+section {
+    margin: 0px;
+    padding: 0px;
+}
+
 main {
-    display: grid;
-    column-gap: 4.5%;
+    column-gap: 70px;
+    row-gap: 70px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: 
-        'sec7 sec1 sec1 sec4'
-        'sec7 sec2 sec1 sec4'
-        'sec8 sec2 sec3 sec4'
-        'sec8 sec2 sec5 sec5' 
-    ;
+    grid-template-rows: repeat(12, 1fr);
+    padding: 2%;
+}
+
+.main__section-1 {
+    grid-column: 2/4;
+    grid-row: 1/5;
+}
+
+.section-1__title {
+    font-size: 21rem;
+    line-height: 180px;
+    margin-bottom: 3%;
+}
+
+.section-1__container {
+    margin: auto;
+    width: 30%;
+}
+
+.container__5-stars {
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+.section-1__description {
+    font-size: 7rem;
+}
+
+.main__section-2 {
+    grid-column: 2/3;
+    grid-row: 5/9;
+    margin-bottom: 0%
+}
+
+.main__section-3 {
+    display: block;
+    grid-column: 3/4;
+    grid-row: 5/9;
+    overflow: hidden;
+}
+
+.section-3__title {
+    font-size: 15rem;
+    line-height: 120px;
+    margin: 0%;
+    width: 100%;
+}
+
+.section-3__container {
+    transform: translateY(30%);
+    width: 100%;
+}
+
+.container__calendar {
+    width: 100%;
+}
+
+.main__section-4 {
+    align-self: auto;
+    grid-column: 4/5;
+    grid-row: 1/9;
+    overflow: hidden;
+    padding: 10%;
+}
+
+.section-4__title {
+    font-size: 15rem;
+    text-align: left;
+}
+
+.section-4__container {
+    width: 210%;
+}
+
+.container__chart {
+    width: 100%;
+}
+
+.section-4__description {
+    font-size: 7rem;
+    line-height: 100px;
+    margin: 0%;
+    text-align: left;
+}
+
+.main__section-5 {
+    grid-column: 3/5;
+    grid-row: 9/13;
+}
+
+.main__section-6 {
+    grid-column: 2/3;
+    grid-row: 9/13;
+}
+
+.main__section-7 {
+    display: block;
+    grid-column: 1/2;
+    grid-row: 1/7;
+}
+
+.section-7__title {
+    font-size: 17rem;
+    line-height: 150px;
+    width: 100%;
+}
+
+.section-7__container {
+    margin: 0%;
+    width: 85%;
+}
+
+.container__button-illustration {
+    width: 100%;
+}
+
+.main__section-8 {
+    grid-column: 1/2;
+    grid-row: 7/13;
 }
