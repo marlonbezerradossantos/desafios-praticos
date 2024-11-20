@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 main {
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(6,1fr);
-    grid-gap: 2.5%;
-    padding: 10% 2%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6,120px);
+    grid-gap: 4% 2.5%;
+    padding: 5% 5% 15% 5%;
     grid-template-areas: 
-        "sec7 sec7 sec1 sec1 sec1 sec1 sec4 sec4"
-        "sec7 sec7 sec1 sec1 sec1 sec1 sec4 sec4"
-        "sec7 sec7 sec2 sec2 sec3 sec3 sec4 sec4"
-        "sec8 sec8 sec2 sec2 sec3 sec3 sec4 sec4"
-        "sec8 sec8 sec6 sec6 sec5 sec5 sec5 sec5"
-        "sec8 sec8 sec6 sec6 sec5 sec5 sec5 sec5"
+        "sec7 sec1 sec1 sec4 "
+        "sec7 sec1 sec1 sec4 "
+        "sec7 sec2 sec3 sec4 "
+        "sec8 sec2 sec3 sec4 "
+        "sec8 sec6 sec5 sec5 "
+        "sec8 sec6 sec5 sec5 "
         
     ;
     width: 100%;
@@ -22,40 +22,143 @@ section {
     margin: 0%;
 }
 
-.main__section-1 {
-    padding: 4%;
-}
-
 .section-1__title {
-    font-size: 4.5rem;
-    margin: 0% auto 2%;
-    text-align: center;
+    font-size: 5rem;
+    line-height: 50px;
+    margin-bottom: 3%;
 }
 
 .section-1__container {
-    margin: 0% auto;
-    width: 30%;
+    margin-bottom: 0%;
+    width: 35%;
 }
 
-.main__section-7 {
-    
+.section-1__description {
+    font-size: 1.7rem;
 }
 
-.section-7__title {
-    font-size:5rem;
+.main__section-2 {
+    margin: 0%;
 }
 
+.section-2__container {
+    width: 100%;
+}
 
+.section-2__description {
+    font-size: 3.5rem;
+    text-align: left;
+    line-height: 34px;
+}
 
+.main__section-3 {
+    overflow: hidden;
+    padding: 2%;
+    position: static;
+}
+
+.section-3__title {
+    font-size: 3.2rem;
+    line-height: 27px;
+    margin-bottom: 0%;
+    margin-left: 7%;
+    text-align: left;
+
+}
+
+.section-3__container {
+    margin-left: 7%;
+    width: 80%;
+}
+
+.container__calendar {
+    transform: translateY(20%);
+}
 
 .main__section-4 {
     align-self: normal;
+    overflow: hidden;
+    padding: 15% 10%;
+
+}
+
+.section-4__title {
+    font-size: 3.8rem;
+    line-height: 35px;
+    margin-bottom: 10%;
+    text-align: left;
+}
+
+.section-4__container {
+    margin-bottom: 15%;
+    width: 140%;
+}
+
+.section-4__description {
+    font-size: 1.8rem;
+    text-align: left;
 }
 
 .main__section-5 {
-    margin: 0px;
+    align-items: center;
+    column-gap: 5%;
+    flex-direction: row;
 }
 
 .section-5__container {
-    margin: 0px;
+    margin-bottom: 0%;
+    width: 70%;
+}
+
+.section-5__description {
+    font-size: 4.3rem;
+    line-height: 40px;
+    text-align: left;
+}
+
+.section-6__growth {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.section-6__description {
+    font-size: 2.1rem;
+    margin-bottom: 10%;
+}
+
+.section-6__container {
+    margin: auto;
+    width: 75%;
+}
+
+.main__section-7 {
+    justify-items: flex-start;
+}
+
+.section-7__title {
+    font-size: 4.4rem;
+    line-height: 39px;
+}
+
+.section-7__container {
+    margin: 0%;
+    width: 95%;
+}
+
+.main__section-8 {
+    padding: 10%;
+}
+
+.section-8__title {
+    font-size: 3.5rem;
+    line-height: 30px;
+    margin-bottom: 15%;
+}
+
+.section-8__container {
+    width: 100%;
+}
+
+.container__chat-AI {
+    max-width: 100%;
 }
