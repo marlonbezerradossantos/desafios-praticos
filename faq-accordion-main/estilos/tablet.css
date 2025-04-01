@@ -1,0 +1,30 @@
+
+.header {
+    padding: 25%;
+}
+
+.faq {
+    transform: translateY(-25%);
+    width: 70%;
+}
+
+.faq__head {
+    column-gap: 5%;
+}
+
+.head__icon-star {
+    width: 12%;
+}
+
+.head__title {
+    font-size: 6.5rem;
+}
+
+.container__title {
+    font-size: 2rem;
+}
+
+.questions__answer {
+    font-size: 1.7rem;
+    line-height: 140%;
+}

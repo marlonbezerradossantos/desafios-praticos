@@ -1,0 +1,71 @@
+.header {
+    background-image: url("../imagens/background-pattern-desktop.svg");
+    background-size: cover;
+    padding: 8%;
+}
+
+.faq {
+    padding: 2%;
+    transform: translateY(-15%);
+    width: 45%;
+}
+
+.faq__head {
+    margin-bottom: 5%;
+}
+
+.head__icon-star {
+    width: 7%;
+}
+
+.head__title {
+    font-size: 4.5rem;
+}
+
+.container__title {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.container__icon {
+    padding: 3.5%;
+}
+
+.questions {
+    margin-bottom: 2%;
+}
+
+.questions__container {
+    margin-bottom: 2%;
+}
+
+.questions__answer {
+    font-size: 1.2rem;
+    padding-bottom: 2%;
+}
+
+@media screen and (min-width: 1500px) {
+    .faq__head{
+        column-gap: 3%;
+    }
+    
+    .head__icon-star {
+        width: 5%;
+    }
+    
+    .head__title {
+        font-size: 6rem;
+    }
+    
+    .container__title {
+        font-size: 2.2rem;
+    }
+    
+    .container__icon {
+        padding: 2.8%;
+    }
+    
+    .questions__answer {
+        font-size: 1.5rem;
+    }
+}
