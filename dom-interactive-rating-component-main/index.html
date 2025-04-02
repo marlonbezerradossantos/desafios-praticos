@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Component</title>
+    <link rel="stylesheet" href="estilos/mobile.css">
+</head>
+<body>
+    <section class="card">
+        <div class="card__container-icon">
+            <img src="imagens/icon-star.svg" alt="Ícone de uma estrela" class="container-icon__image">
+        </div>
+        <h1 class="card__title">How did we do?</h1>
+        <p class="card__description">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        <div class="card__rating">
+            <span class="rating__number" onclick="guardaValor(1)">1</span>
+            <span class="rating__number" onclick="guardaValor(2)">2</span>
+            <span class="rating__number" onclick="guardaValor(3)">3</span>
+            <span class="rating__number" onclick="guardaValor(4)">4</span>
+            <span class="rating__number" onclick="guardaValor(5)">5</span>
+        </div>
+        <a href="page2.html" class="card__submit"><p class="submit__text">SUBMIT</p></a>
+    </section>
+    <script src="script/index.js"></script>
+    
+</body>
+</html>

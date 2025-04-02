@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #141519;
+    font-family: "Overpass", sans-serif;
+    font-size: 1.6rem;
+}
+
+.card {
+    background-image: linear-gradient(to bottom, #212832, #171e26);
+    border-radius: 7%;
+    margin: auto;
+    padding: 5%;
+    transform-origin: center center;
+    transform: translateY(50%);
+    vertical-align: middle;
+    width: 90%;
+}
+
+.card__hero-container {
+    margin: auto;
+}
+
+.hero-container__image {
+    
+}
