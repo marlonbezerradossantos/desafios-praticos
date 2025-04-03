@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/mobile2.css">
+    <link rel="stylesheet" href="estilos/tablet2.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="estilos/desktop2.css" media="screen and (min-width: 1024px)">
 </head>
 <body>
     <section class="card">
         <div class="card__hero-container">
             <img src="imagens/illustration-thank-you.svg" alt="Imagem de agradecimento" class="hero-container__image">
         </div>
-        <p class="card__output">placeholder</p>
+        <p class="card__output">You selected 3 out of 5</p>
         <h2 class="card__thanks">Thank you!</h2>
         <p class="card__description-page-2">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
     </section>
     <script>
         const escolhido = sessionStorage.getItem("rate")
-        
+        const output = document.querySelector(".card__output")
+        output.textContent = `You selected ${escolhido} out of 5`
     </script>
 </body>
 </html>

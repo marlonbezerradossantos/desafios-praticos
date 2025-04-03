@@ -20,7 +20,7 @@ body {
     background-image: linear-gradient(to bottom, #212832, #171e26);
     border-radius: 7%;
     margin: auto;
-    padding: 5%;
+    padding: 8% 5%;
     transform-origin: center center;
     transform: translateY(50%);
     vertical-align: middle;
@@ -28,9 +28,37 @@ body {
 }
 
 .card__hero-container {
-    margin: auto;
+    margin: 0% auto 7% auto;
+    width: 45%;
 }
 
 .hero-container__image {
-    
+    width: 100%;
+}
+
+.card__output {
+    background-color: #272e38;
+    border-radius: 25px;
+    color: #dd711f;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0% auto 8% auto;
+    padding: 2.5% 3%;
+    text-align: center;
+    width: 55%;
+}
+
+.card__thanks {
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 500;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.card__description-page-2 {
+    color: rgba(255, 255, 255, 0.473);
+    font-size: 1.5rem;
+    line-height: 150%;
+    text-align: center;
 }

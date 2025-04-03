@@ -1,0 +1,24 @@
+.card {
+    padding: 4% 3%;
+    transform: translateY(22%);
+    width: 40%;
+}
+
+.card__hero-container {
+    width: 55%;
+}
+
+.card__output {
+    font-size: 2rem;
+}
+
+.card__description-page-2 {
+    font-size: 1.9rem;
+}
+
+@media screen and (min-width: 1300px) {
+    .card {
+        transform: translateY(25%);
+        width: 30%;
+    }
+}

@@ -65,15 +65,18 @@ body {
     display: flex;
     align-items: center;
     background-color: #272e38;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    border-radius: 200px;
     color: white;
     font-weight: 500;
     justify-content: center;
     padding: 4% 5.5%;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .rating__number:hover {
-    background-color: white;
+    background-color: white !important; 
     color: black;
 }
 
@@ -100,4 +103,5 @@ body {
 .submit__text {
     letter-spacing: 2px;
 }
+
 

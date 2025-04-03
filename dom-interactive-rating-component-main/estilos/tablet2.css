@@ -1,0 +1,16 @@
+.card {
+    transform: translateY(40%);
+    width: 70%;
+}
+
+.card__output {
+    font-size: 2.1rem;
+}
+
+.card__thanks {
+    font-size: 3.7rem;
+}
+
+.card__description-page-2 {
+    font-size: 2.2rem;
+}
